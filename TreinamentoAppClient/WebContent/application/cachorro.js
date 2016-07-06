@@ -1,4 +1,6 @@
-function Cachorro() {
-	this.raca = "";
+function Cachorro(nome, idade) {
+	Animal.call(this, nome, idade);
+	this.raca = "srd";
 }
-Cachorro.prototype = new Animal
+Cachorro.prototype = Object.create(Animal.prototype);
+Cachorro.prototype.teste = "testado";

@@ -1,7 +1,8 @@
-function Animal() {
-	this.idade = 0;
-	this.nome = "";
+function Animal(nome, idade) {
+	this.idade = idade;
+	this.nome = nome;
 	this.comer = function comer() {
 		console.log(this.nome + " está comendo");
 	}
 }
+
