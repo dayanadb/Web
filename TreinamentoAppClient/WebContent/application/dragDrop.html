@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function doDrop(ev) {
+		ev.preventDefault();
+		var data = ev.dataTransfer.getData("text");
+		ev.target.appendChild(document.getElementById(data));
+	}
+	function startDrag(ev, text) {
+		ev.dataTransfer.setData("text", ev.target.id);
+	}
+</script>
+</head>
+<body>
+	<div id="div1" draggable="true" ondragstart="startDrag(event)">This text may be dragged.</div>
+	<div id="div2" ondragover="event.preventDefault();" ondrop="doDrop(event)" style="border: solid thin blue; width: 400; height: 300px;"></div>
+</body>
+</html>
