@@ -8,5 +8,4 @@ function Canil(animais) {
 			animal.comer();
 		}
 	}
-
 }
