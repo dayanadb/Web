@@ -61,11 +61,11 @@ function forward() {
 
 function startup() {
 	try {
-		var cao1 = new Cachorro("Toto", 3, "Shih Tzu",'http://www.mendhammoves.com/articles/rescue_dogs/puppy.png');
-		var cao2 = new Cachorro("Lilika", 5, "Pitbull",'http://static.ddmcdn.com/en-us/apl/breedselector/breed-selector/images/quiz-dogs/dog1.png');
-		var cao3 = new Cachorro("Thor", 10, "Rotweiller",'http://www.pngall.com/wp-content/uploads/2016/03/Dog-PNG-5-180x180.png');
+		var cao1 = new Cachorro("Toto", 3, "Shih Tzu", 'http://www.mendhammoves.com/articles/rescue_dogs/puppy.png');
+		var cao2 = new Cachorro("Lilika", 5, "Pitbull", 'http://static.ddmcdn.com/en-us/apl/breedselector/breed-selector/images/quiz-dogs/dog1.png');
+		var cao3 = new Cachorro("Thor", 10, "Rotweiller", 'http://www.pngall.com/wp-content/uploads/2016/03/Dog-PNG-5-180x180.png');
 		var cao4 = new Cachorro("Scooby", 3, "Pintcher", 'http://pngimg.com/upload/dog_PNG2415.png');
-		var cao5 = new Cachorro("Tiger", 5, "Basset",'http://littlepaws4pets.co.uk/images/content/a-new-home-for-your-dog.png');
+		var cao5 = new Cachorro("Tiger", 5, "Basset", 'http://littlepaws4pets.co.uk/images/content/a-new-home-for-your-dog.png');
 		var canil = new Canil([ cao1, cao2, cao3, cao4, cao5 ]);
 		var animais = canil.animais;
 		var selectanimais = document.getElementById("animais");
@@ -102,3 +102,13 @@ function startup() {
 window.addEventListener("load", forward, true);
 window.addEventListener("load", backward, true);
 window.addEventListener("load", startup, true);
+var teste = {
+	a : 'teste',
+	b : 'de novo',
+	c : function() {
+		console.log("c chamado");
+	}
+};
+teste.c();
+var obj = Object.create(Cachorro.prototype);
+console.log(obj);

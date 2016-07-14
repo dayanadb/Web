@@ -3,4 +3,3 @@ function Cachorro(nome, idade, raca, foto) {
 	this.raca = raca;
 }
 Cachorro.prototype = Object.create(Animal.prototype);
-Cachorro.prototype.teste = "testado";
