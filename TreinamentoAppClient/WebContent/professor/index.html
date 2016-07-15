@@ -4,64 +4,19 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="js/animal.js"></script>
-<script type="text/javascript" src="js/cachorro.js"></script>
-<script type="text/javascript" src="js/canil.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+<script type="text/javascript" src="js/events.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript">
-	
-</script>
 </head>
 <body>
-	<div id="wrapper">
 
-		<div id="backarrow" class="seta">
-			<img src="imagens/arrow-5.png" width="100px" height="110px" />
-		</div>
-
-		<div id="nextarrow" class="seta">
-			<img id="next" src="imagens/arrow-6.png" width="100px" height="110px" />
-		</div>
-
-		<div class="content">
-			<div id="dadoscadastrais">
-				<form action="">
-					<fieldset>
-						<legend>Dados Cadastrais</legend>
-						<p>
-							<label>Nome:</label> <input id="name" size="100px" />
-						</p>
-						<br>
-						<p>
-							<label>Endereço:</label> <input id="endereco" size="100px" />
-						</p>
-						<br>
-						<p>
-							<label>Telefone:</label> <input id="telefone" size="40px" />
-						</p>
-					</fieldset>
-				</form>
-				<fieldset>
-					<legend>Disponíveis</legend>
-					<div id="animais" ondrop="doDrop(event);" ondragover="deixa(event);"></div>
-				</fieldset>
-				<fieldset>
-					<legend>Quero Adotar</legend>
-					<div id="selecionados" ondrop="doDrop(event);" ondragover="deixa(event);" class="selecionados"></div>
-				</fieldset>
-			</div>
-
-			<div id="servicosadicionais" hidden="true">
-				
-			</div>
-
-			<div id="confirm" hidden="true">
-				
-			</div>
-
-		</div>
-
+	<div id="back">
+		<img src="imagens/back-arrow-circular-symbol.png" width="80px" height="80px" />
 	</div>
+	<div id="next">
+		<img src="imagens/right-arrow-circular-button.png" width="80px" height="80px" />
+	</div>
+	<div class="content"></div>
 
 </body>
 </html>
