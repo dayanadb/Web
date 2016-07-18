@@ -1,0 +1,2 @@
+ferramentas de edição - brackets - http://brackets.io/
+ferramenta de versionamento - git - https://git-scm.com/download/win
