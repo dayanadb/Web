@@ -1,2 +1,4 @@
 ferramentas de edição - brackets - http://brackets.io/
-ferramenta de versionamento - git - https://git-scm.com/download/win
+ferramenta de versionamento - git - https://git-scm.com/download/win (download do plugin desktop)    --https://github.com
+
+a estrutura hierarquica de elementos eh chamada de DOM
