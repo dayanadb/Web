@@ -1,1 +1,16 @@
 @CHARSET "ISO-8859-1";
+body {
+    background-color:aliceblue;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+
+}
