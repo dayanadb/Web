@@ -1,12 +1,15 @@
 @CHARSET "ISO-8859-1";
-body_color {
-    color: red;
-}
+
 
 footer {
     color: black;
 }
 
 .paragrafo {
-    color: red;
+    color: purple;
+}
+
+
+.article {
+    color: black;
 }
