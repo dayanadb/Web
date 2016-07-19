@@ -1,4 +1,15 @@
 @CHARSET "ISO-8859-1";
-.inline-elements li{
+address {
     display: inline;
+}
+address.hash1  {
+    display: inline;
+    border-right: solid 2px black;
+
+
+}
+address.hash2{
+    display: inline;
+    margin-right: solid 1px black;
+
 }
