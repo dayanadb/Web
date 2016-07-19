@@ -1,1 +1,4 @@
 @CHARSET "ISO-8859-1";
+.inline-elements li{
+    display: inline;
+}
