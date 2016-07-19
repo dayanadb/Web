@@ -1,1 +1,12 @@
 @CHARSET "ISO-8859-1";
+p.body_color {
+    color: brown;
+}
+
+footer {
+    color: azure;
+}
+
+.paragrafo {
+    color: cornflowerblue;
+}
