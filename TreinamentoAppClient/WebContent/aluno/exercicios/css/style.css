@@ -1,5 +1,6 @@
 @CHARSET "ISO-8859-1";
 
-.hgroup: {
-    font-size: 16px;
+hgroup {
+    font-size: 18px;
+    font-family: sans-serif;
 }

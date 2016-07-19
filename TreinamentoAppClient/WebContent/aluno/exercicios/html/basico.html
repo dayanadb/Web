@@ -6,43 +6,104 @@
     <!--Treinamento AWC-->
     <meta charset="ISO-8859-1">
     <link href="../css/style.css" rel="stylesheet" title="Default Style">
-    <title>Treinamento</title>
+    <title>Cadastro</title>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Página inicial</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#dadosPessoais">Dados Pessoais</a></li>
+                <li><a href="#">Dados Profissionais</a></li>
+                <li><a href="#">Contato Pessoal </a></li>
+                <li><a href="#">Contato Profissional </a></li>
+                <li><a href="#informaoesComplementares">Informações Complementares</a></li>
             </ul>
         </nav>
     </header>
-    <article>
-        <section>
-            <hgroup>Dados Pessoais</hgroup>
-
+    <hr>
+    <article id="cadastro">
+        <section id="dadosPessoais">
+            <header>
+                <h1>Dados Pessoais</h1> </header>
+            <p>Nome:
+                <input type="text">
+            </p>
+            <p>Naturalidade:
+                <input type="text">
+            </p>
+        </section>
+        <section id="dadosProfissionais">
+            <header>
+                <h1>Dados Profissionais</h1> </header>
+            <p>Cargo:
+                <input type="text">
+            </p>
+            <p>Empresa:
+                <input type="text">
+            </p>
         </section>
         <section>
-            <hgroup>Dados Profissionais</hgroup>
+            <header>
+                <h1> Contato Pessoal</h1></header>
+            <p>Telefone:
+                <input type="text">
+            </p>
+            <p>Email:
+                <input type="text">
+            </p>
         </section>
         <section>
-           <hgroup> Endereço</hgroup>
+            <header>
+                <h1>Contato Profissional</h1></header>
+            <p>Telefone:
+                <input type="text">
+            </p>
+            <p>Email:
+                <input type="text">
+            </p>
         </section>
+        <section id="informaoesComplementares">
+            <header>
+                <h1>Informações Complementares</h1></header>
+            <p>
+                <input type="text">
+            </p>
+        </section>
+        <hr>
         <section>
-            <hgroup>Endereço Profissional</hgroup>
+            <header>
+                <h1>Competencias</h1></header>
+            <ol>
+                <li>Função A
+                    <dl> <dt>Suporte</dt>
+                        <dd>Atendimento a ferramenta X</dd> <dt>Call Center</dt>
+                        <dd>Atendimento a ferramenta Y</dd>
+                    </dl>
+                </li>
+                <li>Função B
+                    <dl> <dt>Suporte1</dt>
+                        <dd>Atendimento a ferramenta X</dd> <dt>Call Center1</dt>
+                        <dd>Atendimento a ferramenta Y</dd>
+                    </dl>
+                </li>
+            </ol>
         </section>
-        <section>
-           <hgroup>Informações Complementares</hgroup>
-        </section>
-
+        <figure>
+            <header>
+                <h1>Minhas imagens</h1></header>
+        </figure>
     </article>
-    <footer>
-        Loja esta localizada na rua Assis Figueiredo
-    </footer>
-
+    <footer> <address>Rua das flores 1111</address> </footer>
+    <aside>
+        <header>
+            <h1>Ultimas Noticias do Mundo </h1></header>
+        <article>
+            <section>
+                <p>Novo Smartphone lançado no mercado</p>
+            </section>
+        </article>
+    </aside>
 </body>
-
 
 </html>
