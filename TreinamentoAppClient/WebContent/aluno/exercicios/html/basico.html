@@ -10,37 +10,62 @@
     <style>
         .content {
             background-color: bisque;
-
+        }
+        .head1 {
+            background-color: cornflowerblue;
+            color: white;
+        }
+        .head1  li{
+            background-color: cornflowerblue;
+            color: white;
+        }
+        .inline-elements li{
+            display: inline;
+        }
+        .area2 {
+            background-color:aqua;
+        }
+        .footer1 {
+            background-color:blueviolet;
+            color: white;
         }
     </style>
 </head>
 
 <body>
-    <header>
+    <header class="head1">
         <h1>Pagina de teste de tags HTML </h1>
         <nav>
             <ul class="inline-elements">
                 <li><a href="#">teste</a></li>
                 <li><a href="#">Teste 2</a></li>
             </ul>
-
         </nav>
     </header>
-
-     <section class="content">
+    <section class="content">
         <article>
             <p> Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. </p>
         </article>
         <article>
-            <label>Digite seu comentário aqui</label><br>
+            <label>Digite seu comentário aqui</label>
+            <br>
             <textarea name="textarea" rows="20" cols="60">Está é uma textarea</textarea>
         </article>
-        </section>
+    </section>
 
+    <section class="area2">
+        <h1>DL / DT / DD </h1>
+        <dl>
+            <dt> Firefox</dt>
+            <dd> A free, open source, cross-platform, graphical web browser developed by the Mozilla Corp and ....</dd>
+        </dl>
+    </section>
     <aside> Veja mais <a href="#">Aqui</a> </aside>
-    <footer> <address>
-            &copy; 2016 - ricardopr@outlook.com
-        </address> </footer>
+
+    <footer class="footer1">
+        <address> &copy; 2016 - ricardopr@outlook.com
+        </address>
+    </footer>
 </body>
 
 </html>
