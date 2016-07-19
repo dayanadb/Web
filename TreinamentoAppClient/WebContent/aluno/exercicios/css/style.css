@@ -2,7 +2,9 @@
 p.body_color {
     color: brown;
 }
-
+p.titulo {
+    color: brown;
+}
 p.footer {
     color: azure;
 }
