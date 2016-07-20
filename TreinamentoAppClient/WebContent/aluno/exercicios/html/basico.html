@@ -17,17 +17,21 @@
     <article>
         <h2>Meus Dados</h2>
         <section>
-            <h3>Pessoais</h3>
+            <h3><mark>Pessoais</mark></h3>
             <p>Nome: Danilo<br>Naturalidade: Curitiba</p>
         </section>
         <section>
-            <h3>Profissionais</h3>
-            <p>Função: Analista<br>Empresa: Scopus</p>
+            <h3><mark>Profissionais</mark></h3>
+            <p>Função: Analista<br>Empresa: <del>GLT</del><ins>Scopus</ins></p>
         </section>
         <footer>
             <address>
                 <h3>Cartão de visita</h3>
-                <p>Danilo A Buchner<br>Analista<br>Email: <a href="mailto:dan.buchner@gmail.com">dan.buchner@gmail.com</a></p>
+                <p>Danilo A Buchner
+                    <br>Analista
+                    <br>Email: <a href="mailto:dan.buchner@gmail.com">dan.buchner@gmail.com</a>
+                    <br><a href="https://br.linkedin.com/in/danilo-antonio-buchner-17879077">Linkedin</a>
+                </p>
             </address>
         </footer>
     </article>
@@ -35,8 +39,26 @@
     <aticle>
         <h2>Competências</h2>
         <ol>
+            <em>
+                <q>
+                    <li>
+                    <abbr title="Data Inicio: 02/2010">Desenvolvedor</abbr>
+    <!--
+                    descrição competencia -> exempleficar codigo feito - descrever dicionario
+    -->
+                        <dl>
+                            <dt>Java WEB</dt>
+                            <dd>
+                                Desenvolvimento de aplicações java web com struts 1.2
+                                <p><code></code></p>
+                            </dd>
+                        </dl>
+
+                    </li>
+                </q>
+            </em>
             <li>
-                Analista de Suporte
+                <abbr title="Data Inicio: 07/2011">Analista de Suporte</abbr>
                 <dl>
                     <dt>Control-m</dt>
                     <dd>Monitorar jobs falhos no contorl-m</dd>
@@ -44,16 +66,41 @@
                     <dd>Verificar logs do control-m</dd>
                 </dl>
             </li>
-            <li>
-                Desenvolvedor
-                <dl>
-                    <dt>Java WEB</dt>
-                    <dd>Trabalhei desenvolvendo aplicações java web</dd>
-                </dl>
-            </li>
         </ol>
     </aticle>
-    <footer><pre>Copyright Treinamento AWC Scopus</pre></footer>
+    <hr>
+    <article>
+        <table>
+            <caption>Referências</caption>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Daphinis</td>
+                    <td>33585000</td>
+                </tr>
+                <tr>
+                    <td>Bruno</td>
+                    <td>33585000</td>
+                </tr>
+                <tr>
+                    <td>Marco</td>
+                    <td>33585000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td>3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </article>
+    <footer><small><pre>Copyright Treinamento AWC Scopus</pre></small></footer>
 </body>
 
 </html>
