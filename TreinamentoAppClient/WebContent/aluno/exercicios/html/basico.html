@@ -50,40 +50,62 @@
     <ol>
         <li>Função01
             <dl> <dt>Comp01</dt>
-                <dd>Desc01</dd> <dt>Comp02</dt>
-                <dd>Desc02</dd>
+                <dd><em>Desc01</em></dd> <dt>Comp02</dt>
+                <dd><em>Desc02</em></dd>
             </dl>
         </li>
         <li>Função02
             <dl> <dt>Comp01</dt>
-                <dd>Desc01</dd> <dt>Comp02</dt>
-                <dd>Desc02</dd>
+                <dd><em>Desc01</em></dd> <dt>Comp02</dt>
+                <dd><em>Desc02</em></dd>
             </dl>
         </li>
     </ol>
 </article>
-<caption>
-    <hr>
-    <table> <b>Referências</b>
-        <thead>
-            <th><b>Nome</b></th>
-            <th><b>Telefone</b></th>
-        </thead>
-        <tbody>
-            <td>Nome01</td>
-            <td>Telefone01</td>
-        </tbody>
-        <tbody>
-            <td>Nome02</td>
-            <td>Telefone02</td>
-        </tbody>
-        <tfoot>
-            <td>Quantidade de Referências</td>
-            <td>XXXX</td>
-        </tfoot>
-    </table><br><br>
-</caption>
+<dialog id="referencias">
+    <caption>
+        <hr> <b>Referências</b>
+        <table>
+            <colgroup>
+                <col style="background-color: #00CED1">
+                    <col style="background-color: #00CED1">
+                        <col span="0">
+            </colgroup>
+            <thead>
+                <th><b>Nome</b></th>
+                <th><b>Telefone</b></th>
+            </thead>
+            <tbody>
+                <td>Nome01</td>
+                <td>Telefone01</td>
+            </tbody>
+            <tbody>
+                <td>Nome02</td>
+                <td>Telefone02</td>
+            </tbody>
+            <tfoot>
+                <td>Quantidade de Referências</td>
+                <td>XXXX</td>
+            </tfoot>
+        </table>
+        <br>
+        <br> </caption>
+</dialog>
+<hr>
+<button id="showDialog">Referencias</button>
+<button id="exit">exit</button>
 <footer><span><hr>© Site desenvolvido por <b>®afael Batista da Silva</b>
             <br>® Todos os direitos Reservados</span> </footer>
+<script>
+    (function () {
+        var dialog = document.getElementById('referencias');
+        document.getElementById('showDialog').onclick = function () {
+            dialog.show();
+        };
+        document.getElementById('exit').onclick = function () {
+            dialog.close();
+        };
+    })();
+</script>
 
 </html>
