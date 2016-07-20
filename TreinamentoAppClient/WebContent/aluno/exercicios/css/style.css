@@ -17,3 +17,9 @@ footer {
 table, th, td {
     border: 1px solid black;
 }
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
