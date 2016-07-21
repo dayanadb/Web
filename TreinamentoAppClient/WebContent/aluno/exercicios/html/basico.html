@@ -3,15 +3,23 @@
     <head>
         <title>Treinamento Web</title>
         <meta charset="iso-8859-1">
-        <base href="http://127.0.0.1:54258/TreinamentoAppClient/WebContent/aluno/exercicios/html/" />
+        <base href="http://127.0.0.1:49743/TreinamentoAppClient/WebContent/aluno/exercicios/html/" />
     </head>
-    
+    <body>
         <h1>Página Básica</h1>
         <nav>
             <a href="index.html">Incial</a> >
-            <a href="basico.html">Basico</a>
+            Básico
         </nav>
         <hr/>
+        <article>
+            <header><h2><mark>Sobre Mim</mark></h2></header>
+            <section>
+                <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls>
+                    Your browser does not support the <code>audio</code> element.
+                </audio>
+            </section>
+        </article>
         <article>
             <header><h2><mark>Dados Pessoais</mark></h2></header>
             <section>
@@ -64,8 +72,12 @@
             </section>
         </article>
         <article>
-            <h2><mark>Vídeo</mark></h2>
-            <video src="https://www.youtube.com/embed/NugRZGDbPFU" autoplay>
+            <h2><mark>Vídeo Descritivo</mark></h2>
+            <video width="480" controls >
+                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm">
+                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
+                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg">
+                Your browser doesn't support HTML5 video tag.
             </video>
         </article>
         <address>
