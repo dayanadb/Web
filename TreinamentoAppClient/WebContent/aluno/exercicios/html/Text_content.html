@@ -13,13 +13,27 @@
 <body>
         <header>
             <h1>Hoje somos <del>GLT</del> <ins>SCOPUS</ins></h1>
-            <nav>
-                <menu>
-                    <menuitem>Action</menuitem>
-                </menu>
-            </nav>
+
 
         </header>
+
+        <article>
+            <details>
+               <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls>
+  Your browser does not support the <code>audio</code> element.
+                </audio>
+            </details>
+        </article>
+        <article>
+                <details>
+                   <video src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" controls poster="posterimage.jpg" width="300" height="150" >
+  Sorry, your browser doesn't support embedded videos,
+  but don't worry, you can <a href="videofile.webm">download it</a>
+  and watch it with your favorite video player!
+</video>
+                </details>
+            </article>
+
         <article>
             <h1> Dados Pessoais</h1>
 
@@ -83,6 +97,10 @@
                          //we're nerds. how else do you think<br> we're announcing it?<br>
                     </code>
                     </dd>
+                <details>
+                    <summary>Demonstração</summary>
+                        <video src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm" controls width="300px" height="150px"></video>
+                </details>
                 </dl>
 
 
@@ -92,6 +110,10 @@
                     <dd>Aplicação do Sistema RTC para ITIL</dd>
                 <dt><em>Innovation consultant</em></dt>
                     <dd>Consultor de Inovação na InovaHoje</dd>
+                    <details>
+                    <summary> Demonstração</summary>
+                        <video src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm" controls width="300px" height="150px"></video>
+                </details>
                 </dl>
 
 
@@ -103,7 +125,12 @@
                 <li>PRB</li>
 
                     <dt><em>Fiz muita coisa aqui viu, depois de 10 anos</em></dt>
+                    <details>
+                    <summary> Demonstração</summary>
+                        <video src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" controls width="300px" height="150px"></video>
+                </details>
                 </dl>
+
 
              </ol><br>
 
@@ -166,6 +193,41 @@
 
 
     <hr>
+
+    <form>
+        <fieldset>
+            <legend>Cadastrar nova Experiencia:</legend>
+
+            <label for="local">Local de Trabalho: </label>
+                <input type="text" id="local">
+            <label for="atividade">Atividade:</label>
+                <input type="text" id="atividade">
+            <label>Ano</label>
+                <select>
+                    <optgroup>
+                        <option>Choose One</option>
+                        <option>Trabalho Atual</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                    </optgroup>
+
+                </select>
+            <label>Grau de Satisfação do emprego</label>
+                <progress value="80" max="100">80%</progress>
+            <label for="textarea">Descrição</label>
+            <textarea col="30" rows="4" placeholder="Digite a descrição aqui!" id="textarea"></textarea>
+        </fieldset>
+
+        <input type="color">
+        <input type="button" value="Click me, click me!!!">
+        <input type="reset" value="RESET ALL!!!!">
+        <input type="submit" value="Salvar">
+        <input type="checkbox" value="Opção 1">Opção 1 <br>
+        <input type="radio" value="opção alternativa"> Clique aqui manolo!
+
+
+    </form>
 
     <footer>
     &copy; <time> 2016-07-01</time> Ricardo Pinto Ramos
