@@ -12,6 +12,59 @@
     <article>
         <section>
             <header align="center">
+                <h2>Jun Hong Silva</h2></header>
+            <details align="center">
+                <summary>About Me</summary> <em>Scopus Minion - lvl 2</em>
+                <!-- Simple audio playback -->
+                <p></p>
+                <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls autoplay> Your browser does not support the <code>audio</code> element. </audio>
+            </details>
+
+            <details align="center">
+            <summary>Formulário</summary>
+                <form align="center">
+    <fieldset>
+        <legend align="center">Preencha os Dados</legend>
+        <p><span><label>Nome:</label><input type="text" required/>
+        </span></p>
+
+        <p><span><label>Naturalidade: </label><input type="text"/>
+        </span></p>
+
+        <p><span><label>Contato:</label><a href="mailto:jhsilva@scopus.com.br?cc=junx.03@gmail.com&subject=teste&body=contato enviado">Send Mail</a>
+        </span></p>
+
+        <p><span><label>Telefone:</label><input type="tel" pattern="[0-9]"/>
+        </span></p>
+
+        <p><span><label>Linkedin:</label><a href="http://www.linkedin.com">Página</a></span></p>
+
+        <p><span><label>Funcao:</label><input type="text"/>
+        </span></p>
+
+        <p><span><label>Empresa:</label><input type="text"/>
+        </span></p>
+
+        <p><span><label>Obs:</label><textarea></textarea></span></p>
+
+        <p><span><label>User: </label><input type="text"/>
+        </span></p>
+
+        <p><span><label>Password: </label><input type="password"/>
+        </span></p>
+
+        <p><span>
+        <input type="checkbox"/><label>Estou de acordo</label>
+        </span></p>
+        <input type="button" value="Send"/>
+    </fieldset>
+</form>
+            </details>
+        </section>
+    </article>
+    <article>
+        <section>
+            <header align="center">
                 <mark>
                     <h3>Apresentação</h3></mark>
             </header>
@@ -30,7 +83,6 @@
                 <mark>
                     <h4>Dados Pessoais</h4></mark>
             </header>
-            <p>Nome: Jun</p>
             <p>Naturalidade: São Paulo </p>
         </section>
         <hr>
@@ -50,16 +102,31 @@
             <ol type="I">
                 <!-- Marcação -->
                 <li>
-                    <dl><abbr title="Linguaguem de Programação">Java </abbr>
-                        <!-- Descrição - Lista --><dt>Nível:</dt>
-                        <!-- Descrição - Título -->
-                        <dd><em>Avançado</em></dd>
-                        <!-- Descrição  - Descrição  -->
+                    <dl>
+                        <details>
+                            <summary><abbr title="Linguaguem de Programação">Java </abbr></summary>
+                            <!-- Descrição - Lista --><dt>Nível:</dt>
+                            <!-- Descrição - Título -->
+                            <dd><em>Avançado</em></dd>
+                            <dd>
+                                <iframe width="340" height="160" src="https://www.youtube.com/embed/oqnLQVFaqYI?list=PLXqaWKDQpdPn4UJ2fOFxl6Yl_DC51FFUL" frameborder="0" allowfullscreen></iframe>
+                            </dd>
+                            <!-- Descrição  - Descrição  -->
+                        </details>
                     </dl>
                 </li>
                 <li>
-                    <dl><abbr title="Linguaguem de Programação">C</abbr> <dt>Nível:</dt>
-                        <dd><em>Avançado</em></dd>
+                    <dl>
+                        <details>
+                            <summary><abbr title="Linguaguem de Programação">C </abbr></summary>
+                            <!-- Descrição - Lista --><dt>Nível:</dt>
+                            <!-- Descrição - Título -->
+                            <dd><em>Avançado</em></dd>
+                            <!-- Descrição  - Descrição  -->
+                            <dd>
+                                <iframe width="340" height="160" src="https://www.youtube.com/embed/rsHFHOilCU0" frameborder="0" allowfullscreen></iframe>
+                            </dd>
+                        </details>
                     </dl>
                 </li>
             </ol>
@@ -76,37 +143,41 @@
 </body>
 <hr>
 <!-- <dialog open> -->
-    <article align="center">
-        <section>
-            <header>
-                <mark>
-                    <h4>Referências</h4></mark>
-            </header>
-            <table width="100%">
-                <thead>
-                    <tr>
-                        <th> Nome </th>
-                        <th> Telefone </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th> Jun </th>
-                        <th> 41 9829-9313 </th>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td width="50%">/////////////////////////////////////////////////////////////////////</td>
-                        <td width="50%">/////////////////////////////////////////////////////////////////////</td>
-                    </tr>
-                </tfoot>
-            </table>
-        </section>
-    </article>
+<article align="center">
+    <section>
+        <header>
+            <mark>
+                <h4>Referências</h4></mark>
+        </header>
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th> Nome </th>
+                    <th> Telefone </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th> Jun </th>
+                    <th> 41 9829-9313 </th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td width="50%">/////////////////////////////////////////////////////////////////////</td>
+                    <td width="50%">/////////////////////////////////////////////////////////////////////</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</article>
 <!--</dialog> -->
 <hr>
 <footer>
-    <dialog open><h6><data><time datetime="2016-07-29T09:00">Atualizado em: 20 de julho de 2016</time></data></h6></dialog> </footer>
+    <dialog open>
+        <h6><data><time datetime="2016-07-29T09:00">Atualizado em: 20 de julho de 2016</time></data></h6></dialog>
+</footer>
+
+
 
 </html>
