@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Treinamento AWC -->
+    <title>Exemplo de Form</title>
+    <meta charset="iso-8859-1">
+    <!--<link rel="stylesheet" href="" />-->
+    <!--<script src="" />-->
+</head>
+
+<body>
+    <h1>Exemplo de Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="text">Nome:</label>
+                <input type="text" id="nome" required> </p>
+            <p>
+                <label for="text">Naturalidade:</label>
+                <input type="text" id="naturalidade" placeholder="Brasileira" required> </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required> </p>
+            <p>
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="phone" placeholder="000-000-0000" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required> </p>
+            <p>
+                <label for="url">Linkedin:</label>
+                <input type="url" id="linkedin" required> </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <p>
+                <label for="text">Função:</label>
+                <input type="text" id="funcao" required> </p>
+            <p>
+                <label for="text">Empresa:</label>
+                <input type="text" id="empresa" required> </p>
+        </fieldset>
+        <fieldset>
+            <legend>Observações</legend>
+            <textarea name="textarea" rows="5" cols="25">Coloque suas observações aqui.</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Acesso ao Sistema</legend>
+            <p> <span>
+                <label for="text">Usuário:</label>
+                <input type="text" id="user" required>
+            </span></p>
+            <p>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" required> </p>
+            <p>
+                <label for="password">Confirma Senha:</label>
+                <input type="password" id="password" required> </p>
+        </fieldset>
+        <p>
+            <input type="checkbox" name="termos" required>Li e aceito os <a href="#">Termos de Uso</a></p>
+        <p>
+            <button>Enviar</button>
+            <input type="reset" name="reset">
+        </p>
+    </form>
+</body>
+
+</html>
