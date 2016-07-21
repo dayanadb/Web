@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <link href="../css/style.css" rel="stylesheet" title="Default Style">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="" type="Post">
+        <article></article>
+        <fieldset>
+            <legend>Dados</legend>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <p>
+                    <label>Nome:</label>
+                    <input type="text" />
+                </p>
+                <p>
+                    <label>Naturalidade:</label>
+                    <input type="text" />
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input type="email" /> </p>
+                <p>
+                    <label>Telefone:</label>
+                  <abbr title="Informe o telefone no formato (00) 0000 - 0000" ><input type="tel" pattern="(00) 0000 - 0000"  /></abbr>
+                </p>
+                <p>
+                    <label>Linkedin:</label>
+                    <input type="url" />
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                <p>
+                    <label>Função:</label>
+                    <input list="funcao" />
+                    <datalist id="funcao">
+                        <option value="Analista de Sistemas">
+                            <option value="Vendedor">
+                                <option value="Dentista">
+                                    <option value="Medico">
+                                        <option value="Professor">
+                    </datalist>
+                </p>
+                <p><label>Empresa:</label> <input type="text"/></p>
+                <p><label>Obs:</label><textarea name="textarea" maxlength="500" rows="7" cols="50" ></textarea> </p>
+
+            </fieldset>
+            <fieldset>
+                <legend>Outras informações</legend>
+                <p><textarea name="textarea" maxlength="500" rows="7" cols="50" ></textarea> </p>
+            </fieldset>
+            <fieldset>
+                <legend>Dados de login</legend>
+                <p><label>Usuario: </label> <input type="text"/></p>
+                <p><label>Senha: </label> <input type="password"/></p>
+            </fieldset>
+            <fieldset>
+            <legend>Aceite</legend>
+                <p><input type="checkbox" id="disponibilizar"/> <label>disponibilizo minhas informações para outras empresas</label> </p>
+                <p><input type="checkbox" id="receber" /> <label>gostaria de receber informações sobre vagas em aberto</label> </p>
+            </fieldset>
+
+            <p><button name="Enviar" type="submit">Enviar</button></p>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

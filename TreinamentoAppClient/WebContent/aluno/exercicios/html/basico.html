@@ -6,7 +6,7 @@
     <!--Treinamento AWC-->
     <meta charset="ISO-8859-1">
     <link href="../css/style.css" rel="stylesheet" title="Default Style">
-    <title>Cadastro</title>
+    <title>Dados de contato</title>
 </head>
 
 <body>
@@ -22,38 +22,35 @@
         </nav>
     </header>
     <hr>
-    <article id="cadastro">
+    <article id="exibirDadosUsuario">
         <section id="dadosPessoais">
             <header>
                 <h1><mark><u>Dados Pessoais</u></mark></h1> </header>
-            <p>Nome:
-                <input type="text"> </p>
-            <p>Naturalidade:
-                <input type="text"> </p>
+            <p>Nome: Dayana Hoffmann </p>
+            <p>Naturalidade: Brasileira</p>
+            <details>
+                <summary>Sobre Mim</summary>
+                <audio controls="controls" src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg"> O seu navegador não suporta o elemento <code>audio</code>. </audio>
+            </details>
         </section>
         <section id="dadosProfissionais">
             <header>
                 <h1><u>Dados Profissionais</u></h1> </header>
-            <p>Cargo:
-                <input type="text"> </p>
+            <p>Cargo: Analista de Sistemas </p>
             <p>Empresa: <del>GLT</del> <ins>Scopus</ins> </p>
             <p>Perfil linkdin: <a href="#">Dayana</a></p>
         </section>
         <section>
             <header>
                 <h1><u> Contato Pessoal</u></h1></header>
-            <p>Telefone:
-                <input type="text"> </p>
-            <p>Email:
-                <input type="text"> </p>
+            <p>Telefone: 9999999        </p>
+            <p><label>Email:</label> <a href="mailto:dayanadb@gmail.com?cc=dayanadb@hotmail.com&subject=Treinamento&body=teste"> email@email.com.br </a></p>
         </section>
         <section>
             <header>
                 <h1><u>Contato Profissional</u></h1></header>
-            <p>Telefone:
-                <input type="text"> </p>
-            <p>Email:
-                <input type="text"> </p>
+            <p>Telefone:3333 3333 </p>
+            <p>Email:email@scoups.com.br </p>
         </section>
         <section id="informaoesComplementares">
             <header>
@@ -78,6 +75,15 @@
                         <dd>Gerente de vendas de <strong> produtos naturais </strong>. <s>Produtos saudaveis</s></dd> <dt>Analista de vendas</dt>
                         <dd>Atividades voltadas para vendas</dd>
                     </dl>
+                    <dl>
+                        <details>
+                            <summary>Demostração</summary>
+                            <video width="480" controls poster="https://archive.org/download/WebmVp8Vorbis/webmvp8.gif">
+                                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm">
+                                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
+                                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg"> Your browser doesn't support HTML5 video tag. </video>
+                        </details>
+                    </dl>
                 </li>
             </ol>
         </section>
@@ -87,7 +93,7 @@
                 <caption>Referências</caption>
                 <colgroup>
                     <col style="background-color: #00FFFF">
-                    <col style="background-color: #C0C0C0">
+                        <col style="background-color: #C0C0C0">
                 </colgroup>
                 <thead>
                     <tr>
@@ -123,6 +129,15 @@
         </figure>
     </article>
     <p><span>texto</span> <span>texto 2</span></p>
+    <aside>
+        <!-- Reprodução simples de áudio -->
+        <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay> O seu navegador não suporta o elemento <code>audio</code>. </audio>
+        <!-- Reprodução de áudio com legendas -->
+        <audio src="foo.ogg">
+            <track kind="captions" src="foo.en.vtt" srclang="en" label="English">
+                <track kind="captions" src="foo.sv.vtt" srclang="sv" label="Svenska">
+        </audio>
+    </aside>
     <aside>
         <header>
             <h1><mark>Ultimas Noticias do Mundo </mark></h1></header>
