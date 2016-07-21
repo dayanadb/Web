@@ -5,18 +5,20 @@
     <!-- Treinamento AWC -->
     <title>Exemplo de Form</title>
     <meta charset="iso-8859-1">
-    <!--<link rel="stylesheet" href="" />-->
+    <link rel="stylesheet" href="../css/style.css" />
     <!--<script src="" />-->
 </head>
 
 <body>
     <h1>Exemplo de Form</h1>
-    <form action="#" method="post">
+    <form name="myform" action="#" method="post">
         <fieldset>
             <legend>Dados Pessoais</legend>
             <p>
                 <label for="text">Nome:</label>
-                <input type="text" id="nome" required> </p>
+                <input type="text" id="nome" required>
+                <span class="form_hint">Seu nome completo</span>
+            </p>
             <p>
                 <label for="text">Naturalidade:</label>
                 <input type="text" id="naturalidade" placeholder="Brasileira" required> </p>
@@ -41,14 +43,14 @@
         </fieldset>
         <fieldset>
             <legend>Observações</legend>
-            <textarea name="textarea" rows="5" cols="25">Coloque suas observações aqui.</textarea>
+            <textarea name="textarea" rows="5" cols="50">Coloque suas observações aqui.</textarea>
         </fieldset>
         <fieldset>
             <legend>Acesso ao Sistema</legend>
-            <p> <span>
+            <p>
                 <label for="text">Usuário:</label>
                 <input type="text" id="user" required>
-            </span></p>
+            </p>
             <p>
                 <label for="password">Senha:</label>
                 <input type="password" id="password" required> </p>
@@ -56,13 +58,22 @@
                 <label for="password">Confirma Senha:</label>
                 <input type="password" id="password" required> </p>
         </fieldset>
-        <p>
-            <input type="checkbox" name="termos" required>Li e aceito os <a href="#">Termos de Uso</a></p>
+        <fieldset>
+            <legend>Contrato</legend>
+            <p>
+                <input type="checkbox" name="termos" required>Li e aceito os <a href="#">Termos de Uso</a></p>
+        </fieldset>
         <p>
             <button>Enviar</button>
-            <input type="reset" name="reset">
-        </p>
+            <input type="reset" name="reset" class="btn"> </p>
     </form>
+    <hr>
+    <footer> &copy;
+        <time>20/07/2016</time> Lucas A Cruz <address>
+             <em>Moço Foundation - Building M</em>
+<br> Curitiba, PR - Brasil
+<br> 94043-080
+            </address> </footer>
 </body>
 
 </html>

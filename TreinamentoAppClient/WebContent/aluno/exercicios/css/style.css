@@ -1,1 +1,51 @@
 @CHARSET "ISO-8859-1";
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    color: white;
+}
+
+fieldset {
+    background-color: white;
+}
+
+legend {
+    color: white;
+    font-weight: bold;
+    background-color: darkgray;
+}
+
+button {
+    background-color: cadetblue;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: cadetblue;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder {
+    color: darkgray;
+}
+
+form input{
+    border-color: darkgray;
+    border-radius: 10px;
+}
