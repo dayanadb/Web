@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <article>
+        <form>
+            <fieldset name="Dados">
+                <legend>Dados cadastrais</legend>
+                <p><span><label>Nome:</label> <input name="nome" type=text></span></p>
+                <p><span><label>Naturalidade:</label> <input name="naturalidade" type=text></span></p>
+                <p><span><label>E-mail:</label> <input name="email" type=email></span></p>
+                <p><span>
+                    <label>Telefone:</label>
+                    <abbr title="Exemplo 41-8458-1174"/>
+                    <input name="telefone" type=tel pattern="^\d{2}-\d{4}-\d{4}$" placeholder="ex.: 41-8458-1174">
+                   </span>
+                </p>
+                <p><span><label>LinkedIn</label> <input name="linkedin" type=url></span></p>
+                <p><span><label>Função:</label> <input name="funcao" type=text></span></p>
+                <p><span><label>Empresa</label> <input name="empresa" type=text></span></p>
+                <p><span><textarea>Observações</textarea></span></p>
+                <p><span><label>Li e estou de acordo:</label><input type="checkbox" name="concorda"></span></p>
+                <p><span><label>Usuário</label> <input name="usuario" type=text></span></p>
+                <p><span><label>Senha</label> <input name="senha" type=password></span></p>
+                <p><span><input type=submit name="enviar"></span></p>
+            </fieldset>
+        </form>
+    </article>
+</body>
+
+</html>
