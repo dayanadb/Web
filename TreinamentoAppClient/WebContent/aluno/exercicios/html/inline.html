@@ -18,6 +18,16 @@
         td {
             text-align: center;
         }
+
+        details summary::-webkit-details-marker {
+            background: url(../img/details.png) center no-repeat;
+            color: transparent;
+        }
+
+        details[open] summary::-webkit-details-marker {
+            background: url(../img/details.png) center no-repeat;
+            color: transparent;
+        }
     </style>
 </head>
 
@@ -103,9 +113,51 @@
                     </tr>
                 </tbody>
                 <tfoot>
-                    <tr><td colspan="2">Fonte: Autoria Própria</td> </tr>
+                    <tr>
+                        <td colspan="2">Fonte: Autoria Própria</td>
+                    </tr>
                 </tfoot>
             </table>
+        </section>
+        <section>
+            <h3>Interativos</h3>
+            <details>
+                <summary>Abrir Referências</summary>
+                <dialog open>
+                    <table>
+                        <caption> Tabela de Referências</caption>
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Telefone</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pessoa 1</td>
+                                <td>(XX) 000-0000</td>
+                            </tr>
+                            <tr>
+                                <td>Pessoa 2</td>
+                                <td>(XX) 000-0000</td>
+                            </tr>
+                            <tr>
+                                <td>Pessoa 3</td>
+                                <td>(XX) 000-0000</td>
+                            </tr>
+                            <tr>
+                                <td>Pessoa 4</td>
+                                <td>(XX) 000-0000</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Fonte: Autoria Própria</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </dialog>
+            </details>
         </section>
         <hr>
         <footer> &copy;
