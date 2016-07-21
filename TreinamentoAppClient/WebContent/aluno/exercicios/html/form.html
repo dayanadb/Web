@@ -9,28 +9,31 @@
 
 <body>
     <header>
-        <h1>Estou no topo e sou grandão</h1>
-        <h2>H2</h2>
-        <h3>H3</h3>
-        <h4>H4</h4>
-        <h5>H5</h5>
-        <h6>h6</h6></header> <address>Testa address
-    <a href="http://www.somedomain.com/contact">www.somedomain.com</a>
-    </address>
+        <h1>Form</h1> </header>
     <article>
-        <h4>Incrédibu</h4> <address>Encontre coisas mais incredibas em
-        <a href="http://www.casadochapeu.com.br">casadochapeu.com.br</a></address></article>
-    <aside>
-        <h4>Eu não devia estar aqui, sou um aside.</h4> <address>Sou o address de um aside. Encontre mais indesejados em
-        <a href="http://www.foreveralone.com.br">foreveralone.com.br</a></address></aside>
-    <footer>Estou no rodapé</footer>
-    <nav>
-        <ul>
-            <li><a href="/muitoburromesmo">Página inicial</a></li>
-            <li><a href="/conhecaoburrao">Sobre</a></li>
-            <li><a href="/contateumburrao">Contato</a></li>
-        </ul>
-    </nav>
+        <form>
+            <fieldset>
+                <legend>Dados</legend>
+                <p><span><label>Nome:<input type="text"/></label></span></p>
+                <p><span><label>Naturalidade:<input type="text" /></label></span></p>
+                <p><span><label>E-mail:<input type="email"/></label><br /></span></p>
+                <p><span><label>Telefone:<input type="tel" pattern="[0-9]{11}" placeholder="ex.: 0xx XXXX-XXXX"/></label></span></p>
+                <p><span><label>Linkedin:<input type="url"/></label></span></p>
+                <hr>
+                <p><span><label>Função:<input type="text"/></label></span></p>
+                <p><span><label>Emrpesa: <input type="text"/></label></span></p>
+                <p><span><label>Obs.: <input type="text"/></label></span></p>
+                <p><span><input type="checkbox"/><label>Li e estou de acordo.</label></span></p>
+            </fieldset>
+            <fieldset>
+                <legend>Login</legend>
+                <p><span><label>Usuario:<input type="text"/></label></span></p>
+                <p><span><label>Senha:<input type="password"/></label></span></p>
+                <p><span><input type="submit" value="Submeter"/></span></p>
+            </fieldset>
+        </form>
+    </article>
+    <footer></footer>
 </body>
 
 </html>
