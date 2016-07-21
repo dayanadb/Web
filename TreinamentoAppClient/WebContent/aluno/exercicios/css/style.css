@@ -1,1 +1,32 @@
 @CHARSET "ISO-8859-1";
+body {
+    background: black;
+    background: linear-gradient(to top, #fc3,#fc9);
+    color: white;
+
+}
+
+
+form {
+    margin: 10px;
+    padding: 10px;
+}
+
+form fieldset {
+    color: white
+}
+
+input {
+    border-bottom: solid 4px blue;
+    box-shadow: 2px 2px 0  #f3c;
+}
+
+#send-button {
+    background: linear-gradient(to bottom, black, white);
+    padding: 3px;
+}
+#send-button:hover {
+    background: linear-gradient(to top, black, white);
+    padding: 3px;
+}
+
