@@ -1,32 +1,88 @@
 @CHARSET "ISO-8859-1";
-body {
-    background: black;
-    background: linear-gradient(to top, #fc3,#fc9);
-    color: white;
+* {
+    margin: auto;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+li{
+    display: inline;
+    text-decoration:overline
+}
+
+hr {
+    padding: 0;
+}
+
+h1,h2,h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 10px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+
+}
+h1+small{
+    font-family: Georgia, serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+article {
+    border: 10px;
+    text-align: center;
+    width: 70%;
+    float: left;
+
+
+}
+p {
+
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 2.0;
+    text-align: left;
 
 }
 
+div {
+    width: 100%;
+    margin-bottom:  10px;
 
-form {
-    margin: 10px;
-    padding: 10px;
+}
+cite {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    float: left;
+
+
 }
 
-form fieldset {
-    color: white
+}
+cite strong {
+    font-weight: 800;
+
+}
+small {
+    float: right;
+    text-decoration:underline;
 }
 
-input {
-    border-bottom: solid 4px blue;
-    box-shadow: 2px 2px 0  #f3c;
+aside {
+
+    width: 20%;
+    float: right;
+    height: 100%;
+
+
+}
+aside form {
+    display: inline-block;
 }
 
-#send-button {
-    background: linear-gradient(to bottom, black, white);
-    padding: 3px;
-}
-#send-button:hover {
-    background: linear-gradient(to top, black, white);
-    padding: 3px;
-}
+footer {
+    width: 100%;
+    display: block;
+    float: right;
 
+
+}
