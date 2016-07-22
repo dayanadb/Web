@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to bottom, #FFAACC, #000);
+}
+
+h1, legend {
+    font-family: fantasy;
+    text-decoration: overline;
+    color: #FFFC23;
+}
+
+label, input {
+    font-family: cursive;
+    color: #FF0;
+}
+
+textarea {
+    font-size: 15px;
+}
+
+
+form input{
+    border-color: darkgray;
+    border-radius: 10px;
+}
