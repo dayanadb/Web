@@ -1,5 +1,12 @@
 @CHARSET "ISO-8859-1";
-article {
-     font-family: sans-serif;
+p {
+    font-family: sans-serif;
     font-weight: bold;
+    font-size: 10px;
+}
+
+td {
+    font-weight: bold;
+    font-style: oblique;
+    line-height: 20px;
 }
