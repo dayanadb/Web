@@ -14,8 +14,10 @@ p {
 font: italic 75%/125% "Comic Sans MS", cursive;
 }
 
-
 article > section {
     background-color: gainsboro;
     font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 15px;
+    line-height:  2;
+    text-decoration: underline;
 }
