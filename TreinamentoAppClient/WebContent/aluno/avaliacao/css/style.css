@@ -1,7 +1,19 @@
 @CHARSET "ISO-8859-1";
 
 body{
-    color:black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font: "Open Sans";
+    color: #000000;
+    background: #d1e0e0;
+    background-image: url("../img/bird.png");
+}
+
+body>p{
+    font-size: 24px;
+    color: #00664d;
+
 }
 
 article {
@@ -10,25 +22,30 @@ article {
     font-style: normal;
     font: "Open Sans";
     color: black;
+
 }
 
 details>summary{
     font-family: sans-serif;
-    font-size: 18px;
     font-style: italic;
 }
 
 mark{
     font-size: 18px;
-    color: lightcyan;
-    background-color: black;
+    color: #006666;
+    background-color: #FFFFFF;
 }
 
 
 body>footer{
     font-family: sans-serif;
-    color: pink;
+    color: #527a7a;
     font-size: 12px;
+
+}
+table{
+    background: #5c8a8a;
+    color: #e0ebeb;
 
 }
 
@@ -37,3 +54,19 @@ table th{
     background-color: antiquewhite;
 
 }
+
+button{
+    color:darkslategray;
+}
+
+fieldset{
+    background: #e1e1e1;
+    outline-color: aliceblue;
+     opacity: 1;
+}
+
+dialog{
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
