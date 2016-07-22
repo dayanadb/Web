@@ -5,67 +5,47 @@
     <meta charset="iso-8859-1">
     <link href="../css/style.css" rel="stylesheet">
     <title>About me</title>
+    <script>
+        function valida(evt) {
+            evt.preventDefault();
+            evt.stopPropagation();
+            var node = document.getElementById('tel')
+            var main = document.getElementById('main')
+            if (node.validity.patternMismatch) {
+               node.setCustomValidity("I expect an e-mail, darling!");
+            }
+        }
+    </script>
+    <style>
+        input[type="tel"]:invalid {
+            background-color: #F0D5DA;
+        }
+
+        input[type="tel"]:valid {
+            background-color: #C2DBAF;
+        }
+
+        [type="tel"] {
+            -webkit-appearance: none;
+        }
+    </style>
 </head>
 
 <body>
     <article>
-        <header>
-            <h1>Renato Villas Boas Medeiros</h1></header>
-        <section>
-            <header>
-                <h3>Dados Pessoais</h3></header>
-            <p><em>Nome:</em> Renato</p>
-        </section>
-        <section>
-            <header>
-                <h3>Dados Profissionais</h3></header>
-            <p><span><em>Função:</em> Traineer</span></p>
-            <p><span><em>Empresa:</em> Scopus Curitiba</span></p>
-        </section>
+        <details>
+            <summary>About me</summary>
+            <video width="80%" controls>
+                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm"> Your browser doesn't support HTML5 video tag. </video>
+        </details>
     </article>
-
-    <article>
-        <article>
-            <section>
-                <header>
-                    <h1>Dados Cadastrais</h1></header>
-                <form>
-                    <p> Nome:
-                        <input /> </p>
-                    <p> Endereço:
-                        <input /> </p>
-                </form>
-            </section>
-        </article>
-
-        <article>
-            <header>
-                <h2>Dados Cadastrados</h2></header>
-            <section>
-                <table style="width: 100%; border: thin solid gray;">
-                    <tr>
-                        <td><span>A</span></td>
-                        <td>B</td>
-                        <td>C</td>
-                        <td>D</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
-            </section>
-        </article>
-    </article>
-
 </body>
+<form>
+    <div id="main">
+        <input required onblur="valida(event);" type="tel" id="tel" placeholder="Digite no formato ++55(41)1234-1234" pattern="\+\d{2}\(\d{2}\)\d{4}-\d{4}">
+        <input type="submit"> </div>
+
+    <a href="mailto:rvmedeiros@scopus.com.br?cc=rvbmedeiros@gmail.com&subject=teste&body=enviado">Enviar</a>
+</form>
 
 </html>
