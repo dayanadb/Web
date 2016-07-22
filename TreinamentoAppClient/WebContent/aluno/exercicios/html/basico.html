@@ -20,26 +20,7 @@
         </details>
     </section>
 </article>
-<article>
-    <hr>
-    <p>Dados Pessoais</p>
-    <section>
-        <p>Naturalidade:
-            <input> </p>
-    </section>
-    <section>
-        <p>Contato:</p> <a href="mailto:rbsilva@scopus.com.br?cc=cc@scopus.com.br&bcc=bcc@scopus.com.br&subject=Assunto&body=Corpo do Email">Me envie um E-Mail</a> </section>
-</article>
-<article>
-    <hr>
-    <p>Dados Profissionais</p>
-    <section>
-        <p>Função:
-            <input /> </p>
-        <p>Empresa: <del>GLT</del> <ins>SCOPUS</ins> </p>
-        <p><abbr title="Clique para Abrir o Perfil no Linkedin"><a href="https://www.linkedin.com/">Perfil Linkedin</a></abbr> </p>
-    </section>
-</article>
+<hr>
 <form class="smart-green">
     <h1>Dados<span>Pessoais e Profissionais</span></h1>
     <p>Nome:
@@ -50,12 +31,13 @@
         <input type="email"> </p>
     <p>Telefone:
         <input type="tel" placeholder="Preencha com o Telefone"> </p>
-    <p>Linkedin:
-        <input type="url"> </p>
+    <p>Contato: <a href="mailto:rbsilva@scopus.com.br?cc=cc@scopus.com.br&bcc=bcc@scopus.com.br&subject=Assunto&body=Corpo do Email">Me envie um E-Mail</a></p>
+    </section>
     <p>Função:
         <input type="text"> </p>
     <p>Empresa:
         <input type="text"> </p>
+    <p><abbr title="Clique para Abrir o Perfil no Linkedin"><a href="https://www.linkedin.com/">Perfil Linkedin</a></abbr> </p>
     <p>Observação:
         <textarea></textarea>
     </p>
@@ -80,30 +62,32 @@
 <article>
     <hr>
     <p>Competências</p>
-    <ol>
-        <li>
-            <details>
-                <summary> <abbr title="competencias">Função01</abbr> </summary>
-                <dl> <dt>Comp01</dt>
-                    <dd><em>Desc01</em></dd> <dt>Comp02</dt>
-                    <dd><em>Desc02</em></dd>
-                </dl>
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/UDI_5cg5OYY" frameborder="0" allowfullscreen></iframe>
-            </details>
-        </li>
-        <li>
-            <details>
-                <summary> <abbr>Função01</abbr> </summary>
-                <dl> <dt>Comp01</dt>
-                    <dd><em>Desc01</em></dd> <dt>Comp02</dt>
-                    <dd><em>Desc02</em></dd>
-                </dl>
-            </details>
-        </li>
-    </ol>
+    <section>
+        <ol>
+            <li>
+                <details>
+                    <summary> <abbr title="competencias">Função01</abbr> </summary>
+                    <dl> <dt>Comp01</dt>
+                        <dd><em>Desc01</em></dd> <dt>Comp02</dt>
+                        <dd><em>Desc02</em></dd>
+                    </dl>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/UDI_5cg5OYY" frameborder="0" allowfullscreen></iframe>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary> <abbr>Função01</abbr> </summary>
+                    <dl> <dt>Comp01</dt>
+                        <dd><em>Desc01</em></dd> <dt>Comp02</dt>
+                        <dd><em>Desc02</em></dd>
+                    </dl>
+                </details>
+            </li>
+        </ol>
+    </section>
 </article>
 <dialog id="referencias">
-    <caption> <b>Referências</b>
+    <caption> <p>Referências</p>
         <table>
             <thead>
                 <tr>
@@ -131,11 +115,13 @@
             </tfoot>
         </table>
         <br>
+        <button id="exit">exit</button>
         <br> </caption>
 </dialog>
-<hr>
-<button id="showDialog">Referências</button>
-<button id="exit">exit</button>
+<article>
+    <hr>
+    <button id="showDialog">Referências</button>
+</article>
 <footer><span><hr>© Site desenvolvido por <b>®afael Batista da Silva</b>
             <br>® Todos os direitos Reservados</span> </footer>
 <script>
