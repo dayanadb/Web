@@ -1,6 +1,112 @@
 @CHARSET "ISO-8859-1";
 
-hgroup {
+
+/* aplicação de sibling --> nesse caso vai aplicar o estilo apenas para o details que venha logo apos um P */
+section>p+details{
+    font-family: fantasy;
+    font-size: 30px;
+
+}
+
+/* representa uma classe */
+.class {
+
+}
+ /* representa um tipo */
+p {
+   line-height: 1 em;
+    font-family: serif;
+}
+
+header, header mark  {
     font-size: 18px;
     font-family: sans-serif;
+    color: #669999;
 }
+
+section p{
+    color: #ff6666;
+}
+
+nav {
+    font-family: monospace;
+    font-size: 10px;
+}
+li {
+    font-size: 20px;
+}
+nav a:link, nav a:visited{
+  text-decoration: none;
+  color: #bf4040;
+  font-size: 12px;
+}
+
+table td{
+    border: 1px;
+    font-family: monospace;
+    background: #e6ffff;
+}
+table th, table thead{
+    font-size: 14px;
+    background: #e6ffff;
+    color: #ff1a1a;
+}
+table tfoot td{
+    background: #bf4040;
+}
+caption{
+    font-family: cursive;
+    font-size: 14px;
+    font-style: italic;
+
+}
+aside header, aside p{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #b366ff;
+}
+p span{
+    font-family: fantasy;
+    color:#ff8000;
+}
+dt{
+    color:#000066;
+}
+dd{
+    color: #00bfff;
+    font-size: 14px;
+}
+dl{
+    color: #bf00ff;
+}
+li{
+    color: #0080ff;
+}
+footer{
+    color: #b3b3ff;
+}
+
+figure div{
+
+    background-image: url(https://tudosobrecachorro.files.wordpress.com/2014/09/cachorro-fofo-009.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+
+}
+
+figure>div+div{
+    background-image: url(https://tudosobrecachorro.files.wordpress.com/2014/09/cachorro-fofo-004.jpg);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    padding-right: 1000px;
+    padding-bottom: 0;
+    position: relative;
+
+}
+/* representa um ID */
+#id{}
