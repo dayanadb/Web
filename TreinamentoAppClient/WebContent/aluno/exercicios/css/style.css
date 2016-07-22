@@ -1,5 +1,27 @@
 @CHARSET "ISO-8859-1";
 
+html {
+    background-color: floralwhite
+}
+
+article>section>header {
+    font-weight: 100;
+    font-size: 20px;
+    font-family: monospace;
+    border-style:groove;
+    background-color: antiquewhite
+}
+
+article>section>ol>li>dl>details>dt {
+    text-decoration:underline;
+    color:brown
+}
+
+article>section>ol>li>dl>details>dt+dd {
+    font-size: 20px;
+    color:saddlebrown;
+    font-weight: 200;
+}
 
 footer {
     color: black;
