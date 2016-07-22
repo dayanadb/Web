@@ -1,8 +1,63 @@
-.titulo {
-    color: blueviolet
+summary {
+    font-size: 18px;
+    font-weight: bolder;
+    font-variant: small-caps;
 }
 
-.tabela {
-    border: solid;
-    border-color: blue
+p label {
+    font-weight: bold;
+    float:left;
+    text-align: right;
+}
+
+p label+span,a {
+    text-decoration: underline;
+}
+
+article>section {
+    background-color:azure;
+}
+
+section>header {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span>del {
+    color:red;
+}
+
+span>ins {
+    color: darkblue;
+}
+
+a:link {
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+a:visited {
+    color: chocolate;
+}
+
+table,tr,td, th {
+    border: 1px;
+    border-bottom-color: black;
+    border-style: double;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+thead {
+    font-weight: bold;
+}
+dt {
+    font-weight: bold;
+    text-decoration: underline;
 }
