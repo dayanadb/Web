@@ -1,1 +1,30 @@
 @CHARSET "ISO-8859-1";
+
+body
+{
+    background-color: #E6EDED;
+    background-image: url("http://www.planwallpaper.com/static/images/6790904-free-background-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+article section > p
+{
+    font-size: 16px;
+    color: dimgray;
+}
+
+details.inicio
+{
+    text-align: center;
+}
+
+address
+{
+    text-decoration: underline;
+}
+
+article section header > p
+{
+    font-size: 18px;
+    background-color: #6E684D;
+}
