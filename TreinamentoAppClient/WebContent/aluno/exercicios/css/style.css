@@ -1,19 +1,34 @@
 @CHARSET "ISO-8859-1";
 body {
-
     background: linear-gradient(180deg, #C7D9C1, #C1D3D9);
+    background-image: url("../images/wonderland.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 article > section {
-    font-family: Times, "Times New Roman", Georgia, serif,;
+    font-family: Times, "Times New Roman", Georgia, serif, ;
     font-size: 15px;
-    line-height:  2;
+     color: rgb(255,255,255);
+    line-height: 2;
     text-decoration: underline;
 }
 
+details >dialog {
+    background: linear-gradient(180deg, #C7D9C1, #C1D3D9);
+    background-image: url("../images/numbes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 strong {
-  background-color: rgb(255,255,255);
-  color: rgb(0,0,0);
-  font: 100% serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font: 100% serif;
+}
+
+header{
+    font-family: Times, "Times New Roman", Georgia, serif, ;
+    font-size: 15px;
+    color: rgb(255,255,255);
 }
