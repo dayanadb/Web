@@ -15,7 +15,7 @@ p label+span,a {
 }
 
 article>section {
-    background-color:azure;
+    background-color:#f8ecec;
 }
 
 section>header {
@@ -25,11 +25,11 @@ section>header {
 }
 
 span>del {
-    color:red;
+    color:#FF0000;
 }
 
 span>ins {
-    color: darkblue;
+    color: #0000FF;
 }
 
 a:link {
@@ -37,21 +37,21 @@ a:link {
 }
 
 a:hover {
-    color: blanchedalmond;
+    color: #0000FF;
 }
 
 a:visited {
-    color: chocolate;
+    color: #A8C908;
 }
 
 table,tr,td, th {
     border: 1px;
-    border-bottom-color: black;
+    border-bottom-color: #000000;
     border-style: double;
 }
 
 th {
-    background-color: black;
+    background-color: #000000;
     color: white;
 }
 thead {
@@ -62,7 +62,7 @@ dt {
     text-decoration: underline;
 }
 dl>code {
-    background-color: azure;
+    background-color: #00FFFF;
     font-style: italic;
     font-size: 80%;
 }
