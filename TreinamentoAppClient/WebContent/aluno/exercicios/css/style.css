@@ -1,23 +1,19 @@
 @CHARSET "ISO-8859-1";
 body {
-    background-color: azure;
-}
-h1 {
-    color: blue;
-}
 
-footer{
-    color: cadetblue;
-}
-
-p {
-font: italic 75%/125% "Comic Sans MS", cursive;
+    background: linear-gradient(180deg, #C7D9C1, #C1D3D9);
 }
 
 article > section {
-    background-color: gainsboro;
-    font-family: Times, "Times New Roman", Georgia, serif;
+    font-family: Times, "Times New Roman", Georgia, serif,;
     font-size: 15px;
     line-height:  2;
     text-decoration: underline;
+}
+
+
+strong {
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  font: 100% serif;
 }
