@@ -8,10 +8,21 @@
 }
 
 body {
-   background: linear-gradient(to bottom, #2A1067, #965009);
+   background: linear-gradient(-45deg, #2A1067, #965009);
     color: #fff;
 
 }
+
+header {
+
+
+}
+
+section {
+     width: 100%;
+
+}
+
 li{
     display: inline;
     text-decoration:overline
@@ -97,4 +108,8 @@ footer {
     width: 100%;
     display: block;
     float: right;
+}
+
+section>h1,h2,h3 {
+    background: rgba(0,0,0,0.4);
 }
