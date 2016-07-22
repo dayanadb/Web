@@ -61,3 +61,8 @@ dt {
     font-weight: bold;
     text-decoration: underline;
 }
+dl>code {
+    background-color: azure;
+    font-style: italic;
+    font-size: 80%;
+}
