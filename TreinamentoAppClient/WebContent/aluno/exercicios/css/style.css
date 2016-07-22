@@ -1,1 +1,19 @@
-@CHARSET "ISO-8859-1";
+h1 {
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+article {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+section {
+    font-family: cursive;
+}
+
+a {
+    font-family: fantasy;
+}
