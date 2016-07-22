@@ -1,1 +1,33 @@
 @CHARSET "ISO-8859-1";
+
+h2  {
+  /* vertical | horizontal */
+  padding: .5% 1%;
+  color: #fff;
+  background: #deb887;
+  border-radius: 3px;
+  /* border: 1px outset rgba(50,50,50,.5); */
+  border: 1px dashed black;
+  font-family: georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+mark  {
+  background-color: #ffff00;
+}
+label:link {color:  #7fff00 ;}
+label:visited { color: #4b2f89; }
+label:visited { background-color: white }
+
+body {
+  font: 16px "Comic Sans MS", cursive;
+}
+dt:first-child {
+    background: #8a2be2;
+}
+
+a:last-child {
+    background:#d2691e;
+}
