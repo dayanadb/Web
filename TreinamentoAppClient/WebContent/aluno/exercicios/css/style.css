@@ -1,9 +1,20 @@
 @CHARSET "ISO-8859-1";
 
 
+bodya
+{
+    background-color1: rgb(255,231,186);
+
+}
 body
 {
-    background-color: rgb(255,231,186);
+    background-color1: rgb(255,231,186);
+	background: repeating-radial-gradient(
+  circle,
+  blue,
+  blue 10px,
+  #87A9FF 10px,
+  #87A9FF 20px);
 }
 
 fieldset
@@ -45,3 +56,12 @@ article.dados section:last-child
     font-size: 50px;
     color: black;
 }
+.listra
+{
+background: repeating-radial-gradient(
+  circle,
+  blue,
+  blue 10px,
+  #87A9FF 10px,
+  #87A9FF 20px
+);}
