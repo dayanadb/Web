@@ -1,12 +1,24 @@
 @CHARSET "ISO-8859-1";
-p {
-    font-family: sans-serif;
+p i:first-child {
     font-weight: bold;
-    font-size: 10px;
 }
 
 td {
     font-weight: bold;
     font-style: oblique;
     line-height: 20px;
+}
+
+article section:first-child {
+    background-color: yellow;
+}
+
+body {
+    background-image: url("https://pbs.twimg.com/profile_images/378800000410489890/3467cc395aba10b80cd8dc969925e19b_400x400.png");
+    background-repeat: no-repeat;
+    background-size: 100%,auto;
+}
+
+address {
+    background-color: fuchsia;
 }
