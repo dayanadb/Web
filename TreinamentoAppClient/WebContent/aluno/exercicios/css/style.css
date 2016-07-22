@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 html {
-    background-color: floralwhite
+    background-color: floralwhite;
 }
 
 article>section>header {
@@ -9,7 +9,7 @@ article>section>header {
     font-size: 20px;
     font-family: monospace;
     border-style:groove;
-    background-color: antiquewhite
+    background-color:darkgrey;
 }
 
 article>section>ol>li>dl>details>dt {
@@ -49,4 +49,13 @@ iframe{
    form {
         width: 100%;
         clear: both;
+}
 
+html {
+background-image: url(http://www.intrawallpaper.com/static/images/White-Background-9B1.jpg);
+background-repeat: no-repeat;
+}
+
+dialog {
+        background-color: darkgrey;
+}
