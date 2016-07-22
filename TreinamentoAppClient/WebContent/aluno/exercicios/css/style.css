@@ -1,13 +1,21 @@
 @CHARSET "ISO-8859-1";
 body {
-    background-color: powderblue;
+    background-color: azure;
 }
 h1 {
     color: blue;
 }
-p {
-    color: red;
-}
+
 footer{
     color: cadetblue;
+}
+
+p {
+font: italic 75%/125% "Comic Sans MS", cursive;
+}
+
+
+article > section {
+    background-color: gainsboro;
+    font-family: Times, "Times New Roman", Georgia, serif;
 }
