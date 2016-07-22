@@ -1,5 +1,6 @@
 h1 {
     font-family: cursive;
+    font-size: 40px;
 }
 
 p {
@@ -12,8 +13,10 @@ article {
 
 section {
     font-family: cursive;
+    margin-left: 50px;
 }
 
 a {
     font-family: Times, "Times New Roman", Georgia, serif;
+    font-style: oblique;
 }
