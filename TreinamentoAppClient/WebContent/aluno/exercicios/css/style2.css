@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+#topo {
+    position: fixed;
+    margin: 1px;
+    width: 100%;
+    background-color: floralwhite;
+}
+
+#baixo {
+    position: fixed;
+    bottom: 2px;
+    width: 100%;
+    background-color: floralwhite;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header {margin: 1px;
+    width: 100%;
+    text-align: center;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}

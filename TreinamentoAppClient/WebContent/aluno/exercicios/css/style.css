@@ -15,9 +15,8 @@ article section {
 }
 
 article {
-    border: solid;
+    border: dashed;
     border-width: 1px;
-
 }
 
 section {
@@ -37,10 +36,29 @@ address {
 
 li {
     list-style: armenian;
-    border-style: dotted;
+    border-style: solid;
+    border-color: coral;
+    border-radius: 20px;
     margin: 10px;
 }
 
 ol {
     padding: 40px;
 }
+
+#dados_pessoais {
+    float: lef;
+    width: 20%;
+    line-height: 5px;
+}
+
+#dados_profissionais {
+    float: right;
+    line-height: 5px;
+}
+
+#contato {
+    line-height: 5px;
+}
+
+#topo{position: fixed 2px;}
