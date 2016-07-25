@@ -12,12 +12,14 @@ p
 
 article {
     font-family: "Lucida Console", Courier, monospace;
+    padding: 10 px;
+    border: 2px solid;
+    border-radius: 12px;
 }
 
 section {
     font-family: cursive;
-    margin-left: 50px;
-
+    padding: 5px;
 }
 
 a {
@@ -34,20 +36,43 @@ table,td
 body
 {
     background-color: azure;
+    margin: 0 px auto;
 }
 
 section
 {
     background-color: antiquewhite;
     color: blueviolet;
+    border: 2px solid black;
+    border-radius: 12px;
 }
 
-adress
+adress>u
 {
     color:brown;
+    margin: 10 px solid;
+    border: 2 px solid red;
+    border-radius: 12px.
 }
 
-fieldset: first-child
+fieldset
 {
-    background-color:
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+ul
+{
+    list-style: circle;
+}
+
+ul li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+hr
+{
+    padding: 5px;
 }
