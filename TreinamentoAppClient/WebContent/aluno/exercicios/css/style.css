@@ -9,7 +9,8 @@
 
 body {
    background: linear-gradient(-45deg, #2A1067, #965009);
-    color: #fff;
+   color: #fff;
+   margin: 0;
 
 }
 
@@ -25,11 +26,13 @@ section {
 ul {
     background: rgba(255,255,255,1);
     color: #212121;
+    list-style:circle;
 }
 
 li{
-    display: inline;
-    text-decoration:overline
+
+    text-decoration:overline;
+
 }
 
 hr {
@@ -53,17 +56,21 @@ h1+small{
 }
 
 article {
-    border: 10px;
+
+    padding: 5px;
     color: #fff;
     text-align: center;
     width: 70%;
     float: left;
 
+}
 
+article section {
+    padding: 15px;
+    border: solid 1px white;
 
 }
 p {
-
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     line-height: 2.0;
     text-align: left;
@@ -79,8 +86,6 @@ cite {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     float: left;
     background: rgba(0,0,0,0.3);
-
-
 }
 
 }
@@ -114,6 +119,23 @@ aside form {
 aside form input {
     margin: 10px;
 }
+
+
+aside ol {
+    list-style: upper-roman;
+}
+
+aside ol>li {
+    text-decoration: none;
+
+
+
+}
+
+.submenu {
+    list-style: lower-roman;
+}
+
 footer {
     width: 100%;
     display: block;
@@ -122,4 +144,21 @@ footer {
 
 section>h1,h2,h3 {
     background: rgba(0,0,0,0.4);
+}
+
+
+footer section {
+    display: inline-block;
+    border: solid 1px black;
+    margin: 20px;
+    padding: 10px;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+
+}
+footer section p {
+    margin: 0px;
+    border: solid 1px black;
+    text-align: center;
 }
