@@ -1,0 +1,26 @@
+body div:first-child{
+    margin-top:  2px;
+    position: fixed;
+    border: 1px solid;
+    width: 300px;
+    margin: 2px;
+}
+
+body div:nth-child(2){
+    position: absolute;
+    border: 3px solid;
+    height: 20px;
+    width: 300px;
+    float: left;
+
+}
+
+body footer{
+    position: fixed;
+    margin-bottom: 3px;
+    border: 1px solid;
+    height: 30px;
+    clear: both;
+    bottom: 3px;
+    width: 300px;
+}
