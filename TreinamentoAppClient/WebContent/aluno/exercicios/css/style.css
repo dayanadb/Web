@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 body {
     background: linear-gradient(180deg, #C7D9C1, #C1D3D9);
-    background-image: url("../images/wonderland.jpg");
+    background-image: url("../images/darktolightbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,7 +9,7 @@ body {
 article > section {
     font-family: Times, "Times New Roman", Georgia, serif, ;
     font-size: 15px;
-     color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     line-height: 2;
     text-decoration: underline;
 }
@@ -27,8 +27,16 @@ strong {
     font: 100% serif;
 }
 
-header{
+header {
     font-family: Times, "Times New Roman", Georgia, serif, ;
     font-size: 15px;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
+}
+
+li.open {
+    list-style: circle;
+}
+
+li.closed {
+    list-style: disc;
 }
