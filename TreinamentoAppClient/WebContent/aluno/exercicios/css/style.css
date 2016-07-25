@@ -1,3 +1,8 @@
+body {
+   background-color: #bfbfbf;
+    margin: 0px;
+}
+
 summary {
     font-size: 18px;
     font-weight: bolder;
@@ -13,12 +18,18 @@ p label {
 p label+span,a {
     text-decoration: underline;
 }
-
-article>section {
-    background-color:#f8ecec;
+article,section {
+    padding: 5px;
 }
 
-section>header {
+article>section, li {
+    background-color:#f8ecec;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    border-style: inset;
+}
+
+header {
     font-family: sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -43,11 +54,16 @@ a:hover {
 a:visited {
     color: #A8C908;
 }
-
-table,tr,td, th {
-    border: 1px;
+hgroup, footer {
+    margin: 5px;
+}
+table {
+    border-collapse: collapse;
+    margin: 5px;
+}
+table,th,td {
+    border: 1px solid;
     border-bottom-color: #000000;
-    border-style: double;
 }
 
 th {
@@ -65,4 +81,10 @@ dl>code {
     background-color: #00FFFF;
     font-style: italic;
     font-size: 80%;
+}
+abbr:active {
+    background-color: #FF00FF;
+}
+ol>li {
+    list-style: upper-alpha;
 }
