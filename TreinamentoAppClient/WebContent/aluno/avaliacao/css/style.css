@@ -6,8 +6,9 @@ body{
     font-style: normal;
     font: "Open Sans";
     color: #000000;
-    background: #d1e0e0;
-    background-image: url("../img/bird.png");
+    background-image: linear-gradient(to right, #BADCE8, white);
+    margin: 0px;
+
 }
 
 body>p{
@@ -22,6 +23,9 @@ article {
     font-style: normal;
     font: "Open Sans";
     color: black;
+    margin: 10px;
+    padding: 5px;
+    border: 1px;
 
 }
 
@@ -62,11 +66,21 @@ button{
 fieldset{
     background: #e1e1e1;
     outline-color: aliceblue;
-     opacity: 1;
+    opacity: 1;
+    margin: 15px;
+    border: inset #ff99dd;
 }
 
 dialog{
     background-color: #FFFFFF;
     opacity: 1;
+}
+
+ul>li {
+    list-style: square;
+}
+
+ol>li{
+    list-style: lower-roman;
 }
 
