@@ -1,12 +1,14 @@
 @CHARSET "ISO-8859-1";
-#topo {
+div {
     position: fixed;
-    margin: 1px;
     width: 100%;
     background-color: floralwhite;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-#baixo {
+footer {
     position: fixed;
     bottom: 2px;
     width: 100%;
@@ -16,11 +18,35 @@
     text-align: center;
 }
 
-header {margin: 1px;
+header {
     width: 100%;
     text-align: center;
     background-color: azure;
     border: 1px solid black;
     border-radius: 5px;
+}
 
+#meio_esquerdo {
+    float: left;
+    background-color: beige;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+body>article {
+    padding: 20px;
+}
+
+#meio_direito {
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    float:right;
+    margin: 25px;
+}
+
+article {
+    padding: 2px;
 }
