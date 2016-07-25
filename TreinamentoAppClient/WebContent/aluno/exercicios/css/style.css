@@ -1,49 +1,69 @@
 @CHARSET "ISO-8859-1";
-
-abbr  {
-  /* vertical | horizontal */
-  padding: .5% 1%;
-  color: #fff;
-  background: #deb887;
-  border-radius: 3px;
-  /* border: 1px outset rgba(50,50,50,.5); */
-  /*border: 1px dashed black; */
-  font-family: georgia, serif;
-  font-size: 14px;
-  font-style: italic;
-  text-decoration: underline;
+abbr {
+    /* padding: 10px;  vertical | horizontal .5% 1% */
+    color: #fff;
+    background: #deb887;
+    /* border-radius: 3px; */
+    /* border: 1px outset rgba(50,50,50,.5); */
+    /*border: 1px dashed black; */
+    font-family: georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
 }
 
-mark  {
+article {
+    /* width: 100%; */
+    /* padding-top: 100px; */
+    padding-right: 100px;
+    padding-left: 100px;
+    border: 1px solid;
+}
+
+
+/* mark  {
   background-color: #ffff00;
+} */
+
+label:link {
+    border: 1px solid;
+    color: #7f0f00;
 }
-label:link {color:  #7f0f00 ;}
-label:visited { color: #4b2f89; }
-label:visited { background-color: white }
+
+label:visited {
+    color: #4b2f89;
+}
+
+label:visited {
+    background-color: white
+}
 
 body {
-  font: 16px "Comic Sans MS", cursive;
-  color: #fff;
-  background:  #add8e6 ;
-  background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
-  background-repeat: no-repeat round;
+    margin: 0px auto;
+    font: 16px "Comic Sans MS", cursive;
+    color: #FF0000;
+    background: #add8e6;
+    /* background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+    background-repeat: no-repeat round; */
 }
+
 dt:first-child {
-    background: #8a2be2;
+    font-size: 14px;
 }
 
 a:last-child {
-     background-color:#d2691e;
+    background-color: #d2691e;
 }
 
 header {
-      background-color:#b22222;
+    /* background-color:#b22222; */
+    padding-right: 210px;
 }
 
 footer {
-     background-color:#5f9ea0;
+    background-color: #5f9ea0;
 }
 
- ol{
-    list-style: circle outside ;
- }
+ol {
+    list-style: circle outside;
+}
