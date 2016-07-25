@@ -1,26 +1,23 @@
 @CHARSET "ISO-8859-1";
 
 
-bodya
+li
 {
-    background-color1: rgb(255,231,186);
-
+	list-style: upper-alpha;
+	padding-left: 5px;
 }
 body
 {
-    background-color1: rgb(255,231,186);
-	background: repeating-radial-gradient(
-  circle,
-  blue,
-  blue 10px,
-  #87A9FF 10px,
-  #87A9FF 20px);
+    background-color: rgb(255,231,186);
+	margin: 0px;
+
 }
 
 fieldset
 {
     background-color: rgb(240,255,240);
     color: rgb(0,0,0);
+	bor
 }
 
 fieldset legend
@@ -45,23 +42,43 @@ article.funcoes dd
     color: black;
 }
 
-fieldset legend1
+fieldset legend
 {
     font-size: 14px;
     font-family: sans-serif;
-    color: black;
+    color: white;
 }
-article.dados section:last-child
+article.dados section
 {
-    font-size: 50px;
+    font-size: 16px;
     color: black;
+	padding: 5px;
+	border: 1px solid;
+	margin: 3px;
+}
+
+article.funcoes ol
+{
+    font-size: 16px;
+    color: black;
+	padding: 5px;
+	border: 1px solid;
+}
+article.funcoes ul
+{
+    font-size: 16px;
+    color: black;
+	padding: 5px;
+	border: 1px solid;
 }
 .listra
 {
-background: repeating-radial-gradient(
-  circle,
-  blue,
-  blue 10px,
-  #87A9FF 10px,
-  #87A9FF 20px
-);}
+	background: repeating-radial-gradient
+	(
+	  circle,
+	  blue,
+	  blue 10px,
+	  #87A9FF 10px,
+	  #87A9FF 20px
+	);
+}
