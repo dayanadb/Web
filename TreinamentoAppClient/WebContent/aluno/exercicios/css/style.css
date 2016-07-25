@@ -1,1 +1,26 @@
 @CHARSET "ISO-8859-1";
+
+/*selector simples por id - busca primeiro por ID*/
+#X{
+    color:yellowgreen;
+}
+
+/*selector simples por tipo - depois por tipo*/
+a{
+    color:red;
+}
+
+/*selector simples por class - e por fim por classe que se sobrepoem sobre os outros */
+.X{
+    color:blue;
+}
+
+li.roman{list-style: lower-roman;}
+ol li.alpha{list-style: lower-alpha;}
+
+body{margin:0}
+body article{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid;
+        }
