@@ -4,16 +4,55 @@ html {
     background-repeat: round;
 }
 
-article {
+nav {
     text-align: center;
 }
 
+nav > p {
+    float: top;
+    color: brown;
+}
+
+ol {
+    list-style: upper-roman;
+    align-content: center;
+}
+
+dl {
+    color: aquamarine;
+}
+
+aside {
+    float: left;
+    border-bottom: 1px solid #0099ff;
+    border-left: 1px solid #0099ff;
+    border-right: 1px solid #0099ff;
+    border-top: 1px solid #0099ff;
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-right: 10%;
+}
+
+article {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-top: 1px solid red;
+    padding-bottom: 10px;
+    padding-left: 35%;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
 article > p {
+    text-align: center;
     font-weight: bold;
     color: brown;
 }
 
 dialog > p {
+    text-align: center;
     font-weight: bold;
     color: brown;
 }
@@ -34,8 +73,13 @@ p {
 }
 
 addres > p {
+    text-align: center;
     font-weight: bold;
     color: brown;
+}
+
+figure {
+        text-align: center;
 }
 
 footer {
