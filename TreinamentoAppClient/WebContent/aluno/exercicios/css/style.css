@@ -1,1 +1,68 @@
 @CHARSET "ISO-8859-1";
+
+body{
+    background-color: #EDFBFF;
+}
+
+/* Headers das páginas */
+.header{
+    margin-top:  -30px;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: #FFFFFF;
+    background-color: cornflowerblue;
+}
+
+/* Menu de navegação */
+.menu{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* Menu de navegação - link */
+.menu a{
+    color: #FFFFFF;
+}
+
+/* Cabeçalho dos artigos */
+section > header{
+    font-family: sans-serif;
+    font-size: medium;
+    color: cornflowerblue;
+}
+
+/* Sub-titulos de artigos */
+section > h3{
+    font-family: sans-serif;
+    font-size: medium;
+    color: cornflowerblue;
+}
+
+/* Texto dentro dos artigos */
+section > p{
+    font-family: sans-serif;
+    font-size: medium;
+    color: darkblue;
+    padding-left: 1%
+}
+
+/* Rodapé dos artigos */
+section > footer{
+    font-family: sans-serif;
+    font-size: small;
+    color: darkblue;
+}
+
+section > ul{
+    font-family: sans-serif;
+    font-size: medium;
+    color: darkblue;
+}
+
+/* Links */
+a {
+    color: coral
+}
+
