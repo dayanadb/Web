@@ -1,7 +1,13 @@
 @CHARSET "ISO-8859-1";
 
+/* Estilo página */
 body{
     background-color: #EDFBFF;
+}
+
+/* Estilo listas */
+li{
+    list-style-type: square;
 }
 
 /* Headers das páginas */
