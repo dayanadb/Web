@@ -66,7 +66,8 @@ ul
     list-style: circle;
 }
 
-ul li {
+ul li
+{
     background: #ffe5e5;
     padding: 5px;
     margin-left: 35px;
@@ -75,4 +76,40 @@ ul li {
 hr
 {
     padding: 5px;
+}
+
+nav
+{
+    position: static;
+}
+
+footer
+{
+    position: static;
+    bottom: 2px;
+    clear: both;
+}
+
+section>div
+{
+    position: fixed;
+}
+
+body>article
+{
+    float: left;
+    left: 5x;
+    clear: both;
+}
+
+section>dialog
+{
+    margin: 10 px;
+    clear: both;
+    margin-top: 140px;
+}
+
+#tentativa
+{
+    margin-top: 110px;
 }
