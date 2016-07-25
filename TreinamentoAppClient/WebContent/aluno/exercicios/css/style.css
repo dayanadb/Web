@@ -13,6 +13,17 @@ section>p+details{
 
 }
  /* representa um tipo */
+body{
+    margin: 0;
+
+}
+article{
+    margin: 10px;
+}
+section{
+    padding: 15px;
+    border: 1px solid;
+}
 p {
    line-height: 1 em;
     font-family: serif;
@@ -28,13 +39,20 @@ section p{
     color: #ff6666;
 }
 
+li {
+    font-size: 20px;
+}
+
+nav ul{
+    list-style: square;
+    margin: 0;
+}
+
 nav {
     font-family: monospace;
     font-size: 10px;
 }
-li {
-    font-size: 20px;
-}
+
 nav a:link, nav a:visited{
   text-decoration: none;
   color: #bf4040;
@@ -95,7 +113,10 @@ figure div{
     width: 200px;
     height: 200px;
     position: absolute;
+}
 
+section ol{
+    list-style: circle;
 }
 
 figure>div+div{
@@ -103,8 +124,7 @@ figure>div+div{
     background-size: 200px 200px;
     width: 200px;
     height: 200px;
-    padding-right: 1000px;
-    padding-bottom: 0;
+    margin-left : 500px;
     position: relative;
 
 }

@@ -4,3 +4,12 @@ ferramenta de versionamento - git - https://git-scm.com/download/win (download d
 a estrutura hierarquica de elementos eh chamada de DOM
 
 HTML -> https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+
+selector
+
+padding --> afeta do pai para o filho
+body{ padding:10px} todos os elementos dentro do body vão tem espaço de 10 px com relação ao body
+ margin
+ 
+ div {margin:5px} todos os elementos vao ter 5px de distancia em relação a div
