@@ -1,54 +1,81 @@
 @CHARSET "ISO-8859-1";
 
 
+article nav
+{
+	background-color: yellow;
+	position:fixed;
+	margin: 10px;
+	border: 2px solid;
+	width: 98%;
+	clear: both;
+	border-radius: 5px;
+	text-align:  center;
+}
+section div
+{
+	clear: both;
+	float: left;
+	margin-left: 5px;
+	border: 2px solid red;
+	width: 100px;
+	height: 1230px;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+
 li
 {
 	list-style: upper-alpha;
-	padding-left: 5px;
+	padding-left: 20px;
 }
 body
 {
     background-color: rgb(255,231,186);
-	margin: 0px;
-
 }
 
 fieldset
 {
     background-color: rgb(240,255,240);
     color: rgb(0,0,0);
-	bor
 }
 
-fieldset legend
-{
-    font-family: sans-serif;
-    font-size: 16px;
-    color: yellow;
-    background-color: rgb(0,0,0);
-}
-
-article.dados section h1
+article section h1
 {
     font-family: sans-serif;
     font-size: 16px;
     color: rgb(0,0,0);
 }
 
-article.funcoes dd
+article dd
 {
     font-family: sans-serif;
     font-size: 16px;
     color: black;
 }
+article dt
+{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+	padding-left: 10px;
+}
 
 fieldset legend
 {
-    font-size: 14px;
+    font-size: 16px;
     font-family: sans-serif;
-    color: white;
+ }
+article section
+{
+    font-size: 16px;
+    color: black;
+	padding: 5px;
+	border: 1px solid;
+	margin: 3px;
 }
-article.dados section
+article address
 {
     font-size: 16px;
     color: black;
@@ -57,28 +84,17 @@ article.dados section
 	margin: 3px;
 }
 
-article.funcoes ol
+article ol
 {
     font-size: 16px;
     color: black;
 	padding: 5px;
 	border: 1px solid;
 }
-article.funcoes ul
+article ul
 {
     font-size: 16px;
     color: black;
 	padding: 5px;
 	border: 1px solid;
-}
-.listra
-{
-	background: repeating-radial-gradient
-	(
-	  circle,
-	  blue,
-	  blue 10px,
-	  #87A9FF 10px,
-	  #87A9FF 20px
-	);
 }
