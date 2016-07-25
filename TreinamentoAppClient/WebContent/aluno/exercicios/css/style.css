@@ -2,29 +2,51 @@
 
 body
 {
-    background-color: #E6EDED;
+    margin: 0px, auto;
+    /*background-color: #E6EDED;
     background-image: url("http://www.planwallpaper.com/static/images/6790904-free-background-wallpaper.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% auto;*/
 }
+.dados
+{
+    margin: 10px;
+    border: 1px solid;
+}
+section
+{
+    padding: 5px, 5px, 5px, 5px;
+}
+
 article section > p
 {
     font-size: 16px;
-    color: dimgray;
-}
-
-details.inicio
-{
-    text-align: center;
 }
 
 address
 {
     text-decoration: underline;
 }
-
 article section header > p
 {
     font-size: 18px;
-    background-color: #6E684D;
+}
+ul
+{
+    list-style: square;
+}
+div
+{
+    float: left;
+    position: fixed 2px top;
+
+}
+nav
+{
+    position: fixed 23px;
+    border: solid;
+    float: left;
+    border: groove;
+    height: 400px;
+    width: 400px;
 }
