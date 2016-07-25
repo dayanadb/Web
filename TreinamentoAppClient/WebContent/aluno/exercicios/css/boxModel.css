@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+article .titulo{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+
+    background-color: antiquewhite;
+}
+
+article .texto{
+
+}
