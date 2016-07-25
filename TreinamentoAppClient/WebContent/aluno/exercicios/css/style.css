@@ -9,14 +9,26 @@ td {
     line-height: 20px;
 }
 
-article section:first-child {
+article section {
     background-color: aliceblue;
+    margin: : 10px;
+}
+
+article {
+    border: solid;
+    border-width: 1px;
+
+}
+
+section {
+    padding: 5px;
 }
 
 body {
     background-image: url("https://pbs.twimg.com/profile_images/378800000410489890/3467cc395aba10b80cd8dc969925e19b_400x400.png");
     background-repeat: no-repeat;
     background-size: 100%, auto;
+    margin: 0px;
 }
 
 address {
@@ -24,6 +36,11 @@ address {
 }
 
 li {
-    list-style: armenian
+    list-style: armenian;
+    border-style: dotted;
+    margin: 10px;
 }
 
+ol {
+    padding: 40px;
+}
