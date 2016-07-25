@@ -12,12 +12,23 @@ abbr {
     text-decoration: underline;
 }
 
+nav {
+    border: 1px solid;
+    position: fixed;
+    top: 2px;
+}
+
 article {
     /* width: 100%; */
     /* padding-top: 100px; */
-    padding-right: 100px;
-    padding-left: 100px;
+    /* padding-right: 10px; */
+    padding-left: 1px;
     border: 1px solid;
+    float: right;
+    clear: both;
+     position: absolute;
+     top: 20px;
+     left: 170px;
 }
 
 
@@ -55,15 +66,18 @@ a:last-child {
     background-color: #d2691e;
 }
 
+
+/*
 header {
     /* background-color:#b22222; */
-    padding-right: 50px;
-}
 
+/*padding-right: 50px; */
+
+}
+*/
 footer {
     background-color: #5f9ea0;
 }
-
 ol {
     list-style: circle outside;
 }
