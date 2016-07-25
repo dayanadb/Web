@@ -10,15 +10,20 @@ td {
 }
 
 article section:first-child {
-    background-color: yellow;
+    background-color: aliceblue;
 }
 
 body {
     background-image: url("https://pbs.twimg.com/profile_images/378800000410489890/3467cc395aba10b80cd8dc969925e19b_400x400.png");
     background-repeat: no-repeat;
-    background-size: 100%,auto;
+    background-size: 100%, auto;
 }
 
 address {
-    background-color: fuchsia;
+    background-color: floralwhite;
 }
+
+li {
+    list-style: armenian
+}
+
