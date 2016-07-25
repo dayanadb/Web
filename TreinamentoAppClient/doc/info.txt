@@ -10,6 +10,15 @@ selector
 
 padding --> afeta do pai para o filho
 body{ padding:10px} todos os elementos dentro do body vão tem espaço de 10 px com relação ao body
- margin
  
+margin 
  div {margin:5px} todos os elementos vao ter 5px de distancia em relação a div
+ 
+ float: encosta o elemento no pai em alguma direção
+ 
+ 
+ posicionamento:
+ static: posicionamento default - não considere posicionamento
+ fixed: posicionamento com relação a janela do browser
+ absolute: o posicionamento do elemento com relação ao pai
+ relative:

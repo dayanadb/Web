@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            font: 20px Helvetica;
+            background: #999999;
+        }
+
+        #main {
+            min-height: 800px;
+            margin: 0px;
+            padding: 0px;
+            display: -webkit-flex;
+            -webkit-flex-flow: row;
+            flex-flow: row;
+        }
+
+        #main > article {
+            margin: 4px;
+            padding: 5px;
+            border: 1px solid #cccc33;
+            border-radius: 7pt;
+            background: #dddd88;
+            -webkit-flex: 3 1 60%;
+            flex: 3 1 60%;
+            -webkit-order: 2;
+            order: 2;
+        }
+
+        #main > nav {
+            margin: 4px;
+            padding: 5px;
+            border: 1px solid #8888bb;
+            border-radius: 7pt;
+            background: #ccccff;
+            -webkit-flex: 1 6 20%;
+            flex: 1 6 20%;
+            -webkit-order: 1;
+            order: 1;
+        }
+
+        #main > aside {
+            margin: 4px;
+            padding: 5px;
+            border: 1px solid #8888bb;
+            border-radius: 7pt;
+            background: #ccccff;
+            -webkit-flex: 1 6 20%;
+            flex: 1 6 20%;
+            -webkit-order: 3;
+            order: 3;
+        }
+
+        header,
+        footer {
+            display: block;
+            margin: 4px;
+            padding: 5px;
+            min-height: 100px;
+            border: 1px solid #eebb55;
+            border-radius: 7pt;
+            background: #ffeebb;
+        }
+        /* Too narrow to support three columns */
+
+        @media all and (max-width: 640px) {
+            #main,
+            #page {
+                -webkit-flex-flow: column;
+                flex-flow: column;
+            }
+            #main > article,
+            #main > nav,
+            #main > aside {
+                /* Return them to document order */
+                -webkit-order: 0;
+                order: 0;
+            }
+            #main > nav,
+            #main > aside,
+            header,
+            footer {
+                min-height: 50px;
+                max-height: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>header</header>
+    <div id='main'>
+        <article>article
+            <section id="dadosPessoais">
+                <header>
+                    <h1><mark><u>Dados Pessoais</u></mark></h1> </header>
+                <p>Nome: Dayana Hoffmann </p>
+                <p>Naturalidade: Brasileira</p>
+                <details>
+                    <summary>Sobre Mim</summary>
+                    <audio controls="controls" src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg"> O seu navegador não suporta o elemento <code>audio</code>. </audio>
+                </details>
+            </section>
+            <section id="dadosProfissionais">
+                <header>
+                    <h1><u>Dados Profissionais</u></h1> </header>
+                <p>Cargo: Analista de Sistemas </p>
+                <p>Empresa: <del>GLT</del> <ins>Scopus</ins> </p>
+                <p>Perfil linkdin: <a href="#">Dayana</a></p>
+            </section>
+        </article>
+        <nav>
+            <ul>
+                <li><a href="#dadosPessoais">Dados Pessoais</a></li>
+                <li><a href="#">Dados Profissionais</a></li>
+                <li><a href="#">Contato Pessoal </a></li>
+                <li><a href="#">Contato Profissional </a></li>
+                <li><a href="#informaoesComplementares">Informações Complementares</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <header>
+                <h1><mark>Ultimas Noticias do Mundo </mark></h1></header>
+            <article>
+                <section>
+                    <p>Novo Smartphone lançado no mercado</p>
+                </section>
+            </article>
+        </aside>
+    </div>
+    <footer><address>Rua das flores 1111</address></footer>
+</body>
+
+</html>
