@@ -8,13 +8,16 @@
     </head>
 
 <body>
-    <details class="inicio">
-        <summary>About me</summary>
-        <audio controls="controls"> Your browser does not support the <code>audio</code> element.
-            <source src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" type="audio/wav">
-        </audio>
-    </details>
-    <article>
+    <div><p>Top</p>
+    <article class="dados">
+
+        <nav>Home</nav>
+        <details>
+            <summary>About me</summary>
+            <audio controls="controls"> Your browser does not support the <code>audio</code> element.
+                <source src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" type="audio/wav">
+            </audio>
+        </details>
         <section>
             <header>
                 <h1><mark>Dados Pessoais</mark></h1>
@@ -29,7 +32,7 @@
         </section>
         <address>Cartão de visita</address>
         <hr>
-        <section>
+        <section id="competencia">
             <header>
                 <p><abbr title="Competências">Competências</abbr></p>
             </header>
@@ -37,7 +40,7 @@
                 <li><abbr title="Minha função 1"><i><strong>Função A</strong></i></abbr></li>
                 <dl>
                     <dt>Comp.A</dt>
-                    <dd>Descrição</dd>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae commodo tellus. Vestibulum in ultricies enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit at magna non luctus. Proin efficitur lacinia ipsum a feugiat. Ut molestie augue nulla, non placerat diam hendrerit quis. Curabitur quis feugiat ligula. Donec interdum turpis non porta semper. Phasellus finibus libero vitae est vestibulum, a maximus est bibendum. Donec id commodo diam. Phasellus luctus velit vel turpis fringilla maximus. Nunc pellentesque consectetur nunc. Integer facilisis pellentesque dolor non bibendum. Morbi elementum purus vitae lacus facilisis finibus.</dd>
                     <dt>Comp.B</dt>
                     <dd>Descrição</dd>
                 </dl>
@@ -55,11 +58,18 @@
                     <dt>Comp.B</dt>
                     <dd>Descrição</dd>
                 </dl>
+                <li><abbr title="Minha função 3"><i><strong>Função C</strong></i></abbr></li>
+                <dl>
+                    <dt>Comp.A</dt>
+                    <dd>Descrição</dd>
+                    <dt>Comp.B</dt>
+                    <dd>Donec ullamcorper, mi ac suscipit placerat, ante lorem lacinia elit, ut eleifend arcu nulla sit amet neque. Maecenas aliquet eu urna id convallis. Integer dolor ligula, dignissim sit amet odio in, laoreet pretium lacus. Vivamus maximus mattis velit, ut vulputate lorem condimentum vitae. Pellentesque tristique leo velit, ac faucibus orci porta a. Nam iaculis velit ut pulvinar ultricies. In pellentesque dui magna, vel faucibus dui finibus vel.</dd>
+                </dl>
             </ul>
         </section>
     </article>
     <hr>
-    <article>
+    <article class="tabela">
         <section>
             <dialog open>
                 <table>
@@ -92,6 +102,8 @@
             </dialog>
         </section>
     </article>
+    <div>Footer</div>
+</div>
 </body>
 
 </html>
