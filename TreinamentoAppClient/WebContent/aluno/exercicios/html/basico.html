@@ -6,124 +6,131 @@
         <link href="../css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <hgroup>
-            <h1>Alexandre Pereira</h1>
-        </hgroup>
+        <nav class="header">
+            <hgroup><h1>Alexandre Pereira</h1></hgroup>
+        </nav>
+        <nav class="menu">
+            <p>Home</p>
+        </nav>
         <article>
-            <section>
+            <article>
+                <section>
+                    <br>
+                    <details>
+                        <summary>Sobre mim</summary>
+                        <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls>
+                            Seu browser não suporta esse formato de <code>áudio</code>
+                        </audio>
+                    </details>
+                </section>
+                <hr>
+                <section>
+                    <header class="titulo">Dados Pessoais</header>
+                    <article>
+                        <p>
+                            <label>Nome:</label> <span>Alexandre Pereira</span>
+                        </p>
+                        <p>
+                            <label>Naturalidade:</label> <span>Brasileiro</span>
+                        </p>
+                    </article>
+                </section>
                 <br>
-                <details>
-                    <summary>Sobre mim</summary>
-                    <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" controls>
-                        Seu browser não suporta esse formato de <code>áudio</code>
-                    </audio>
-                </details>
-            </section>
+                <section>
+                    <header class="titulo">Dados Profissionais</header>
+                    <article>
+                        <p>
+                            <label>Função:</label> <span>Desenvolvedor</span>
+                        </p>
+                        <p>
+                            <label>Empresa:</label><a href="http://www.scopus.com.br">Scopus Soluções em TI</a>
+                        </p>
+                    </article>
+                </section>
+                <br>
+                <section>
+                    <span>Hoje trabalho na <del> GLT</del><ins>Scopus</ins></span>
+                </section>
+            </article>
+            <br>
+            <footer>
+                <address>Dúvidas sobre este site entrar em contato através do e-mail <a href="mailto:rpdemo@gmail.com?cc=rpdemo@hotmail.com&bcc=alexandrep@scopus.com.br&subject=Teste Email&body=Contato feito">Webmaster</a> </address>
+            </footer>
             <hr>
-            <section>
-                <header class="titulo">Dados Pessoais</header>
-                <article>
-                    <p>
-                        <label>Nome:</label> <span>Alexandre Pereira</span>
-                    </p>
-                    <p>
-                        <label>Naturalidade:</label> <span>Brasileiro</span>
-                    </p>
-                </article>
-            </section>
-            <br>
-            <section>
-                <header class="titulo">Dados Profissionais</header>
-                <article>
-                    <p>
-                        <label>Função:</label> <span>Desenvolvedor</span>
-                    </p>
-                    <p>
-                        <label>Empresa:</label><a href="http://www.scopus.com.br">Scopus Soluções em TI</a>
-                    </p>
-                </article>
-            </section>
-            <br>
-            <section>
-                <span>Hoje trabalho na <del> GLT</del><ins>Scopus</ins></span>
-            </section>
-        </article>
-        <br>
-        <footer>
-            <address>Dúvidas sobre este site entrar em contato através do e-mail <a href="mailto:rpdemo@gmail.com?cc=rpdemo@hotmail.com&bcc=alexandrep@scopus.com.br&subject=Teste Email&body=Contato feito">Webmaster</a> </address>
-        </footer>
-        <hr>
-        <article>
-            <header>Competências</header>
-            <ol>
-                <li>
-                    <details>
-                        <summary><abbr title="De 10/06/2016 até atual">Desenvolvedor</abbr></summary>
-                        <dl>
-                            <dt>Qualidades</dt>
-                            <dd>Programo bem pra caramba</dd>
-                            <dd>Não entrego com bug</dd>
-                        </dl>
-                        <dl>
-                            <code>foreach(var times in brasileirao){
-                                    if (times.nome.equals("Coxa")){
-                                        times.divisao = 2;
-                                    }
-                                  }</code>
-                        </dl>
+            <article>
+                <header>Competências</header>
+                <ol>
+                    <li>
                         <details>
-                            <summary><strong>Vídeo Institucional</strong></summary>
-                            <video width="480" height="480" controls>
-                                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
-                            </video>
+                            <summary><abbr title="De 10/06/2016 até atual">Desenvolvedor</abbr></summary>
+                            <dl>
+                                <dt>Qualidades</dt>
+                                <dd>Programo bem pra caramba</dd>
+                                <dd>Não entrego com bug</dd>
+                            </dl>
+                            <dl>
+                                <code>foreach(var times in brasileirao){
+                                        if (times.nome.equals("Coxa")){
+                                            times.divisao = 2;
+                                        }
+                                      }</code>
+                            </dl>
+                            <details>
+                                <summary><strong>Vídeo Institucional</strong></summary>
+                                <video width="480" height="480" controls>
+                                    <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
+                                </video>
+                            </details>
                         </details>
-                    </details>
-                </li>
-                <li>
-                    <details>
-                        <summary><abbr title="De 10/02/2010 até 09/06/2016">Team Leader</abbr></summary>
-                        <dl>
-                            <dt>Qualidades</dt>
-                            <dd>Xingo pouco</dd>
-                            <dd>Dou aumento a cada 10 anos</dd>
-                            <dd>Demito só por justa causa pra não pagar o FGTS</dd>
-                            <dt>Defeitos</dt>
-                            <dd>Não possuo. Não por acaso virei chefe</dd>
-                        </dl>
-                    </details>
-                </li>
-            </ol>
+                    </li>
+                    <li>
+                        <details>
+                            <summary><abbr title="De 10/02/2010 até 09/06/2016">Team Leader</abbr></summary>
+                            <dl>
+                                <dt>Qualidades</dt>
+                                <dd>Xingo pouco</dd>
+                                <dd>Dou aumento a cada 10 anos</dd>
+                                <dd>Demito só por justa causa pra não pagar o FGTS</dd>
+                                <dt>Defeitos</dt>
+                                <dd>Não possuo. Não por acaso virei chefe</dd>
+                            </dl>
+                        </details>
+                    </li>
+                </ol>
+            </article>
+            <hr>
+            <article>
+                    <h1>Referências</h1>
+                    <table>
+                        <caption>Tabela de Referências</caption>
+                        <thead>
+                            <colgroup>
+                                <col span="2">
+                            </colgroup>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Telefones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John Doe</td>
+                                <td>99999999</td>
+                            </tr>
+                            <tr>
+                                <td>Mary Doe</td>
+                                <td>88888888</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Número de contatos: 2</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+            </article>
         </article>
-        <hr>
-        <article>
-                <h1>Referências</h1>
-                <table>
-                    <caption>Tabela de Referências</caption>
-                    <thead>
-                        <colgroup>
-                            <col span="2">
-                        </colgroup>
-                        <tr>
-                            <th>Nome</th>
-                            <th>Telefones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>John Doe</td>
-                            <td>99999999</td>
-                        </tr>
-                        <tr>
-                            <td>Mary Doe</td>
-                            <td>88888888</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="2">Número de contatos: 2</td>
-                        </tr>
-                    </tfoot>
-                </table>
-        </article>
+        <nav class="footer">
+        </nav>
     </body>
 </html>
