@@ -90,11 +90,6 @@ footer
     clear: both;
 }
 
-section>div
-{
-    position: fixed;
-}
-
 body>article
 {
     float: left;
