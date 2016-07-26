@@ -7,23 +7,30 @@ for(i = 0; num < 100; i++)
 
 do
 {
-	//todo
+	console.log(num);
 }
 while(num< 100)
 
 
 while(num < 100 )
 {
-	//todo
+	console.log(num);
 }
 
 var pessoa = {nome:"Aldo", sobrenome:"Leonardo", idade:43};
 
-var text = "";
+var teste = "";
 var i;
 for (i in pessoa)
 {
-    text += pessoa[i];
+    teste += pessoa[i];
+	console.log(teste);
+}
+
+for (i of pessoa)
+{
+    teste += pessoa[i];
+	console.log(teste);
 }
 
 
