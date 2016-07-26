@@ -1,1 +1,57 @@
 @CHARSET "ISO-8859-1";
+html {
+    height: 100%
+}
+
+body {
+    background-image: url(../imagens/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    line-height: 30px;
+    position: fixed;
+    top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+nav a {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 25px;
+    font-style: normal;
+    color: #445;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
+article.titulo {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: beige;
+    background-color: rgba(200, 200, 206, 0.9);
+    padding: 20px;
+}
+
+article.titulo p:first-child {
+    font-family: monospace;
+    font-size: 68px;
+}
+
+article.titulo p:last-child {
+    font-family: sans-serif;
+    font-size: 34px;
+}
