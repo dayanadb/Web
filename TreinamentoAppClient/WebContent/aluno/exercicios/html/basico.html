@@ -5,15 +5,47 @@
     <meta charset="iso-8859-1">
     <link href="../css/style.css" rel="stylesheet">
     <title>About me</title>
+    <script>
+        function valida(evt) {
+            evt.preventDefault();
+            evt.stopPropagation();
+            var node = document.getElementById('tel')
+            var main = document.getElementById('main')
+            if (node.validity.patternMismatch) {
+               node.setCustomValidity("I expect an e-mail, darling!");
+            }
+        }
+    </script>
+    <style>
+        input[type="tel"]:invalid {
+            background-color: #F0D5DA;
+        }
+
+        input[type="tel"]:valid {
+            background-color: #C2DBAF;
+        }
+
+        [type="tel"] {
+            -webkit-appearance: none;
+        }
+    </style>
 </head>
 
 <body>
+
     <nav> <a href="#">Calendário</a> <a href="#">Certificações</a> <a href="#">Programa de Desenvolvimento</a> </nav>
     <article class="titulo">
         <p>Scopus Desenvolvimento</p>
         <p>Empresa do Grupo BRADESCO</p>
     </article>
     <footer></footer>
+    <article>
+        <details>
+            <summary>About me</summary>
+            <video width="80%" controls>
+                <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm"> Your browser doesn't support HTML5 video tag. </video>
+        </details>
+    </article>
 </body>
 
 </html>
