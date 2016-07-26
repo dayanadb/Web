@@ -16,13 +16,14 @@ section div
 {
 	clear: both;
 	float: left;
-	margin-left: 5px;
+	margin-left: 2px;
 	border: 2px solid red;
 	width: 100px;
-	height: 1230px;
+	height: 1105px;
 	border-radius: 5px;
-	background-color: #ffffff;
+	background-color: #c1c1c1;
 	text-align:  center;
+	padding: 2px;
 }
 
 li
