@@ -12,8 +12,17 @@ body{
     background-color: #EDFBFF;
 }
 
+body > footer{
+    position: fixed;
+    bottom: 2px;
+}
+
 /* Headers das páginas */
 article .titulo{
+    position: fixed;
+    top: 0;
+    left: 0;
+
     margin: 0 auto;
     width: 100%;
     height: auto;
@@ -23,11 +32,11 @@ article .titulo{
     background-color: cornflowerblue;
 
     font-family: sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
     color: #FFFFFF;
 }
 
-/* Menu de navegação */
+/* Breadcrumb */
 article .menuNavegacao{
     font-family: sans-serif;
     font-size: small;
@@ -37,19 +46,65 @@ article .menuNavegacao{
     margin-top: 25px;
 }
 
-/* Menu de navegação - link */
+/* Link de Navegação */
 nav a{
     color: #FFFFFF;
 }
 
-section{
+/* Menu Navegação da Página */
+body > nav{
+    height: 100%;
+    background-color: cornflowerblue;
+
+    font-family: sans-serif;
+
+    padding: 10px;
+
+    position: fixed;
+    top: 160px;
+    transform: translateY(-50px);
+}
+
+/* Menu Página */
+article .menuPagina{
+    background-color: cornflowerblue;
+    float: left;
+
+    padding: 10px;
+    margin-right: 10px;
+}
+
+/* Cabeçalho do menu da página */
+body > nav > header{
+    color: floralwhite;
+    font-weight: bold;
+}
+
+/* Lista do menu da página */
+body > nav > ul > li{
+    color: floralwhite;
+}
+
+/* ARTIGOS */
+
+body > article{
+    position: absolute;
+    left: 210px;
+    top: 110px;
+
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Cabeçalho dos artigos */
 section > header{
     font-family: sans-serif;
-    font-size: medium;
+    font-size: x-large;
+    font-weight: bold;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
     color: cornflowerblue;
 }
 
@@ -83,7 +138,7 @@ section > ul{
 
 /* COMPONENTES */
 
-/* Links */
+/* Links dos artigos */
 a {
     color: coral
 }
