@@ -3,13 +3,15 @@
 
 <head>
     <title>Formulário</title>
+    <script src=../js/sintaxe_e_tipos.js></script>
+    <script src=../js/controle_de_fluxo_e_manipulacao_de_erro.js></script>
+     <link href="../css/formstyle.css" rel="stylesheet">
+
 </head>
 
 <body>
     <article>
         <form>
-            <fieldset name="Dados">
-                <legend>Dados cadastrais</legend>
                 <p><span><label>Nome:</label> <input name="nome" type=text></span></p>
                 <p><span><label>Naturalidade:</label> <input name="naturalidade" type=text></span></p>
                 <p><span><label>E-mail:</label> <input name="email" type=email></span></p>
@@ -23,11 +25,10 @@
                 <p><span><label>Função:</label> <input name="funcao" type=text></span></p>
                 <p><span><label>Empresa</label> <input name="empresa" type=text></span></p>
                 <p><span><textarea>Observações</textarea></span></p>
-                <p><span><label>Li e estou de acordo:</label><input type="checkbox" name="concorda"></span></p>
+                <p><span><label>Li e estou de acordo:</label><input type=checkbox name="concorda"></span></p>
                 <p><span><label>Usuário</label> <input name="usuario" type=text></span></p>
                 <p><span><label>Senha</label> <input name="senha" type=password></span></p>
                 <p><span><input type=submit name="enviar"></span></p>
-            </fieldset>
         </form>
     </article>
 </body>
