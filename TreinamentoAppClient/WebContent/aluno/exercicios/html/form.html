@@ -3,6 +3,7 @@
     <head>
         <title>Cadastro</title>
         <script src="../js/sintaxe_e_tipos.js"></script>
+        <script src="../js/controle_de_fluxo_e_manipulacao_de_erro.js"></script>
     </head>
     <body onload="teste()">
         <form>
@@ -68,7 +69,7 @@
                 <p>
                     <span>
                         <label for="usuario">Usuário:</label>
-                        <input type="text" required/>
+                        <input type="text" id="usuario" required/>
                     </span>
                 </p>
                 <p>
@@ -78,7 +79,7 @@
                     </span>
                 </p>
                 <p>
-                    <input type="submit">
+                    <input type="submit" onclick="validateLogin()">
                 </p>
             </fieldset>
         </form>
