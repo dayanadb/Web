@@ -59,3 +59,9 @@ for (var value of iterable) {
   console.log(value);
 }//output: 10 20 30
 //for-of end //
+
+
+/**
+ * CONSIDERAÇÕES:
+    Perfeito!
+  */
