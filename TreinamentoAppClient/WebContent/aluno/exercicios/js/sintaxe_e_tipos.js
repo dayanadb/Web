@@ -11,13 +11,17 @@
 var a = true; //declaração de variável
 var b = 1;
 
+teste();
 
 function teste() {
+    "use strict";
     if (a === true) {
         let c = false;
-        console.log(c);
+        //alert(c);
     } else {
         const d = true;
-        console.log(d);
+        //alert(d);
     }
 }
+
+
