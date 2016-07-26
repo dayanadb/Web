@@ -16,3 +16,11 @@ function validateLogin() {
         conso.log(err.message);
     }
 }
+
+
+
+
+/* CONSIDERAÇÕES:
+
+OK, utilizou corretamente o if e o try...catch. Como sugestões, amplie o exercício utilizando mais else if e o finnaly
+*/

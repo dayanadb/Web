@@ -1,5 +1,5 @@
 console.log("LAÇO FOR")
-for (var a = 0; a < 10; a++){
+for (var a = 0; a < 10; a++) {
     console.log('a = ' + a);
 }
 
@@ -8,7 +8,7 @@ var a_do = 10;
 do {
     console.log('a = ' + a_do);
     a_do++;
-} while(a_do < 10);
+} while (a_do < 10);
 
 console.log("LAÇO WHILE")
 var a_while = 0;
@@ -26,3 +26,7 @@ for (var a = 0; a < 10; a++) {
     console.log('a >= 5 --> break');
     break;
 }
+
+/* CONSIDERAÇÕES:
+    Perfeito! Apenas faltou praticar o for...in e o for...of
+*/
