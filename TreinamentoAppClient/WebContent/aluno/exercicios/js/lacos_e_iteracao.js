@@ -70,3 +70,8 @@ function main(){
 }
 
 main();
+
+/**
+ * CONSIDERAÇÕES:
+    Perfeito! Aplicou todos os iteradores no exercício!
+  */

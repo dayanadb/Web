@@ -37,3 +37,8 @@ function main() {
 }
 
 main();
+
+/**
+ * CONSIDERAÇÕES:
+    Perfeito! Aplicou todos as condicionais e o tratamento de erro
+  */
