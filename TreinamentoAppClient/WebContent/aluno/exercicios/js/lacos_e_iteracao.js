@@ -34,5 +34,10 @@ while (a < 10); {
 }
 console.log("while continue loop b final = " + b);
 
+/* falta for in
+    e
+    for of
+*/
+
 
 
