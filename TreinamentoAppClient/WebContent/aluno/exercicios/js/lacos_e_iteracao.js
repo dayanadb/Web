@@ -1,7 +1,7 @@
 /**
  * 
  */
-for (var x = 1, x < 10, x++) {
+for ( x = 1, x < 10, x++) {
     console.log("for loop x = " + x);
 }
 var a = 1;
