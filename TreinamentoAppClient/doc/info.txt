@@ -5,7 +5,7 @@ a estrutura hierarquica de elementos eh chamada de DOM
 
 HTML -> https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
-
+--------------------CSS-------------------------------------------------------
 selector
 
 padding --> afeta do pai para o filho
@@ -21,4 +21,12 @@ margin
  static: posicionamento default - não considere posicionamento
  fixed: posicionamento com relação a janela do browser
  absolute: o posicionamento do elemento com relação ao pai
- relative:
+ relative:o posicionamento do elemento com relação a ele mesmo
+ 
+ -----------------------------------Java Script ---------------------------------
+ var : identificador de declaração de variavel local e global
+ let : identificador de declaração de variavel dentro de um bloco (if,else...) - não estará acessivel fora do bloco
+ const : identificador de declaração de variavel dentro de um bloco e seu valor uma vez declarado não pode ser alterado.
+ 
+ 
+ 
