@@ -8,6 +8,7 @@ text += exemplo[2] + "<br>";
 text += exemplo[3] + "<br>";
 text += exemplo[4] + "<br>";
 text += exemplo[5] + "<br>";
+
 for (i = 0; i < exemplo.length; i++) {
     text += exemplo[i] + "<br>";
 }
@@ -47,3 +48,8 @@ for (x in pessoa) {
 for (x of pessoa) {
     text += pessoa[x];
 }
+
+/* CONSIDERAÇÕES:
+   Perfeito!
+ */
+
