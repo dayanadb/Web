@@ -43,3 +43,8 @@ function caso()
 
 console.log(testaIf());
 console.log(caso());
+
+/* CONSIDERAÇÕES:
+    Na linha 3, esta multiplicando 10 por 10, logo daria 100 ao inves de 20 (* multiplica, enquanto + soma)
+    No mais, excelente!
+ */

@@ -54,3 +54,8 @@ function quinto()
 {
 
 }
+
+/* CONSIDERAÇÕES:
+    Perfeito! Apenas percebi que não fez os exercícios de  for...in e for...of, em caso de dúvidas, me procure!
+ */
+
