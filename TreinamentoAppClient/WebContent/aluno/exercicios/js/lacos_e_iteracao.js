@@ -6,8 +6,10 @@ console.log("i:");
 for (i = 0; i < 10; i++) {
     console.log(i);
 }
+
 var a = 0;
 console.log("a:")
+
 do {
     console.log(a);
     a++;
@@ -18,8 +20,10 @@ while (c < 5) {
     console.log(c);
     c++;
 }
+
 var d;
 console.log("d:");
+
 for (d = 0; d < 10; d++) {
     console.log(d);
     if (d >= 5) {
@@ -28,8 +32,10 @@ for (d = 0; d < 10; d++) {
         continue;
     }
 }
+
 var e;
 console.log("e:");
+
 for (e = 0; e < 10; e++) {
     console.log(e);
     if (e == 5) {
@@ -37,18 +43,26 @@ for (e = 0; e < 10; e++) {
         break;
     }
 }
+
 var person = {
     nome: "Marco "
     , sobrename: "Scheid "
     , idade: 25
 };
+
 var text = "";
 var x;
+
 for (x in person) {
     text += person[x];
     console.log(text);
 }
+
 var arr = ["fred", "tom", "bob"];
 for (let g of arr) {
     console.log(g);
 }
+
+/* CONSIDERAÇÕES:
+    Excelente!
+ */

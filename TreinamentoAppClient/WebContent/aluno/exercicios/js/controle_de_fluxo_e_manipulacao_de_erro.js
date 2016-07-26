@@ -30,3 +30,7 @@ default:
     resultado_switch = "none";
 }
 console.log(resultado_switch);
+
+/* CONSIDERAÇÕES:
+    Muito bom os exemplos de if e switch, entretanto notei a falta dos exercício de try...catch e throw. Caso esteja com alguma dúvida, me procure que conversamos em reforço individual.
+ */
