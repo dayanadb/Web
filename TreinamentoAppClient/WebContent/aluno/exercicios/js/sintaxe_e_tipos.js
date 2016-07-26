@@ -27,7 +27,7 @@ function teste() {
     }
     else {
         let idoso = false;
-        if (idoso) {
+        if (!idoso) {
             console.log('Não tem desconto');
         }
     }
