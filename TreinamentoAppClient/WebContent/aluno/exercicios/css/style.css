@@ -22,6 +22,7 @@ header>h1{
 .menu li{
     position:relative;
     float:left;
+    top: 2px;
     border-right:1px solid #c0c0c0;
     list-style: none;
 }
@@ -66,13 +67,19 @@ section {
 }
 
 nav {
-
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
+    height: 30px;
     display: block;
     background-color: #fff;
 
+}
+nav>p {
+    color: #000;
+    float: right;
+    position: relative;
+    right: 12px;
 }
 
 
