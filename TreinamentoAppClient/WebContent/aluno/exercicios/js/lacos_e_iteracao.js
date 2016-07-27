@@ -18,18 +18,19 @@ while (a < 10); {
 }
 
 a = 0;
-while (a < 10); {
+while (a < 10) {
     console.log("while break loop a = " + a);
-    a++;
+
     if (a >= 4) {
         break;
     }
+    a++;
 }
 
 console.log("while break loop b final = " + b);
 
 var b = 0;
-while (a < 10); {
+while (a < 10) {
     consoale.log("while continue loop b = " + b);
     b++;
     if (a >= 4) {
