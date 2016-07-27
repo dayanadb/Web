@@ -27,13 +27,13 @@ while (a < 10) {
     a++;
 }
 
-console.log("while break loop b final = " + b);
+console.log("while break loop b final = " + a);
 
 var b = 0;
-while (a < 10) {
+while (b < 10) {
     consoale.log("while continue loop b = " + b);
     b++;
-    if (a >= 4) {
+    if (b  >= 4) {
         continue;
     }
 }
