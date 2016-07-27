@@ -47,6 +47,7 @@ function paramrest(x, ...y) {
 
 /* declarar função que utilize o léxico this para referenciar a si mesmo dentro do próprio escopo. */
 
+<<<<<<< HEAD
 /*  this */
 function dis(a) {
  this.nome = a;
@@ -54,3 +55,9 @@ function dis(a) {
 
 }
 
+=======
+/*
+ CONSIDERAÇÕES:
+    Excelente! Está no caminho certo!
+ */
+>>>>>>> origin/robertoleonardo
