@@ -1,5 +1,5 @@
 function diaSemana(dia){
-    switch (dia) {
+        switch (dia) {
         case 0:
             dia = alert("Domingo");
             break;
@@ -23,7 +23,8 @@ function diaSemana(dia){
             break;
         default:
             dia = alert("Erro");
-    }
+        }
+
 }
 
 function imprimirPares()
@@ -46,6 +47,11 @@ function maior10()
     do
     {
         x = prompt("Informe um numero: ");
+        if (!x){
+            return;
+        }
+        x = +x;
+        diaSemanaF(x);
         console.log(x);
     }
     while(x < 10)
