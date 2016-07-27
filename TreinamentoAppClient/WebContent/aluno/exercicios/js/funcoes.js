@@ -22,8 +22,9 @@ function aninhada (){
 }
 
 //Funcao com parametro padrão
-function idadeAno(x,y){
-
+function idadeAno(x){
+    var ano = 2016 - x;
+    return ano;
 }
 
 //Funcao Parametro Rest
@@ -36,4 +37,12 @@ function typeThis(){
     return this.a + this.c;
 }
 
+
+console.log("Funcao Anonima =  " + anonima);
+console.log("Funcao  Não Anonima =  " +nAnonima);
+console.log("Variavel de Escopo de Funcao =  " +abc);
+console.log("Funcao Aninhada =  " +aninhada);
+console.log("Funcao Parametro Padrão =  " +idadeAno);
+console.log("Funcao Parametro Rest =  " +typeRest);
+console.log("Funcao This =  " +typeThis);
 
