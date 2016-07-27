@@ -3,14 +3,15 @@
  */
 //for
 var b = 10;
-for(var i = 0; i < b; i++)
+for (var i = 0; i < b; i++)
 {
     console.log(i);
 }
 
 //do while
 var x = 5;
-do{
+do
+{
     x++;
 }
 while(x <5);
@@ -24,9 +25,16 @@ while(y < 20){
 }
 
 //for in
-var obj = {nome:"Ivan",idade:"21";
-var teste = "";
-for(teste in obj)
-{
-    console.log(teste);
+var obj = {
+         nome: "Ivan",
+         idade: "21"};
+         var teste = "";
+         for (teste in obj) {
+             console.log(teste);
+         }
+//for of
+let a = [3, 5, 7];
+var i;
+for( i of a ){
+    console.log(i);
 }
