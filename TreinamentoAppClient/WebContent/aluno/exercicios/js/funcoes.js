@@ -7,6 +7,7 @@ fun3();
 param(10);
 paramrest("teste",10,20,30,40);
 
+
 function fun() {
     console.log("teste de função não anonima");
 }
@@ -16,6 +17,11 @@ function retorno() {
     return "teste de função não anomina com retorno";
 }
 /* declarar um variavel que armazene o escopo da função da 1a. função criada */
+var f = function (a, b) {return a * b};
+var x= f(5,4);
+console.log("resultado de f= " +x)
+
+
 /* declarar função aninhada */
 function fun3() {
     console.log("teste de função não anonima");
