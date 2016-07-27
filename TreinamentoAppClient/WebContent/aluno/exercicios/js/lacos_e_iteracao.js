@@ -47,3 +47,6 @@ for (x in pessoa) {
 for (x of pessoa) {
     text += pessoa[x];
 }
+for (x of pessoa) {
+    text += pessoa[x];
+}
