@@ -14,6 +14,7 @@ try {
     else {
         console.log("não é nem um nem dois");
     }
+<<<<<<< HEAD
     switch (a) {
     case 1:
         {
@@ -28,6 +29,13 @@ try {
             console.log("valor defalut");
             x.controle();
         }
+=======
+
+    switch (a)
+case 1:
+    {
+        console.log("switch é um");
+>>>>>>> origin/robertoleonardo
     }
 }
 catch (error) {
@@ -36,3 +44,10 @@ catch (error) {
 finally {
     console.log("finalmente");
 }
+
+/* CONSIDERAÇÕES:
+    Na linha 10, else if deve ser separado ( colocou elseif, tudo junto)
+    No throw da linha 12, não seria obrigatorio declara um escopo de bloco para lançar o erro. Por exemplo, poderia fazer throw "Não deveria ser dois"
+    Nos cases das linhas 21 e 25 não declarou break no final dos cases  - o que acarretaria que cases seguintes também seriam executados. Caso tivesse sido essa a sua intenção ok! Apenas esteja atento!
+    No mais, muito bom!
+ */
