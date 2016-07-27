@@ -6,7 +6,7 @@ retorno();
 fun3();
 param(10);
 paramrest("teste",10,20,30,40);
-
+dis("teste de uso do this");
 
 function fun() {
     console.log("teste de função não anonima");
@@ -47,4 +47,10 @@ function paramrest(x, ...y) {
 
 /* declarar função que utilize o léxico this para referenciar a si mesmo dentro do próprio escopo. */
 
+/*  this */
+function dis(a) {
+ this.nome = a;
+    console.log("teste de uso do this. + " + this.nome);
+
+}
 
