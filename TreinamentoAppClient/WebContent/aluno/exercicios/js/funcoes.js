@@ -95,4 +95,9 @@ function carregarPais(){
     }
 }
 
+/*
+ CONSIDERAÇÕES:
+    Se possível, pratique mais a criação de função anonima.
+    No mais, ficou excelente!
+ */
 
