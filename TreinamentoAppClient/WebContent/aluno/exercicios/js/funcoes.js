@@ -38,3 +38,8 @@ function diaSemanaF(dia){
     x(); //função do tipo closure
 
 }
+
+/*
+ CONSIDERAÇÕES:
+    Excelente!
+ */
