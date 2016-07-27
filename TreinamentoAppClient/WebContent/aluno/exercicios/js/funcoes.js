@@ -59,5 +59,9 @@ function RetornaData(){
 }
 
 
-
+/*
+ CONSIDERAÇÕES:
+    Se possível, pratique a criação de função anonima.
+    No mais, está excelente!
+ */
 
