@@ -21,7 +21,7 @@ function inicializacaoVariaveis() {
     simbolo = Symbol("Símbolo");
     objeto = {nome: "Wesley",idade: 28};
 
-    console.log("Variáveis inicializadas");
+    alert("Variáveis inicializadas");
 }
 
 function imprimirVariaves(){
@@ -31,6 +31,8 @@ function imprimirVariaves(){
     console.log(texto);
     console.log(simbolo);
     console.log(objeto);
+
+    alert("Valores Impressos");
 }
 
 function usarLetConst(opcao){
@@ -40,6 +42,8 @@ function usarLetConst(opcao){
 
         console.log(nome);
         console.log(empresa);
+
+        alert(nome, empresa);
     }else{
         let nome="Outra pessoa";
         const empresa="Outra empresa";

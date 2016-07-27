@@ -7,7 +7,6 @@ function ExcessaoUsuario(mensagem){
 }
 
 function testarErrosIf(parametro){
-
     try{
         if(parametro == 1){
             var excessao = new ExcessaoUsuario("Usuário Inválido");
@@ -22,7 +21,6 @@ function testarErrosIf(parametro){
 
 function testarIteracao(){
     var flag = true;
-
     while(flag){
         for(var i = 0; i < 10; i++){
             console.log(i);
@@ -31,5 +29,5 @@ function testarIteracao(){
         flag = false;
     }
 
-    console.log("Saindo de testarIteracao");
+    alert("Saindo de testarIteracao");
 }
