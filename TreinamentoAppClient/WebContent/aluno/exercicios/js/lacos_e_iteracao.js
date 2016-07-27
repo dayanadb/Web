@@ -12,7 +12,7 @@ do {
 } while (a < 10);
 
 a = 0;
-while (a < 10); {
+while (a < 10) {
     console.log("while loop a = " + a);
     a++;
 }
@@ -31,7 +31,7 @@ console.log("while break loop b final = " + a);
 
 var b = 0;
 while (b < 10) {
-    consoale.log("while continue loop b = " + b);
+    console.log("while continue loop b = " + b);
     b++;
     if (b  >= 4) {
         continue;

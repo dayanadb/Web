@@ -38,3 +38,7 @@ function paramrest(x, ...y) {
     var b = y;
     console.log("a= " + a + " b= " + b.length );
 }
+
+/* declarar função que utilize o léxico this para referenciar a si mesmo dentro do próprio escopo. */
+
+
