@@ -40,3 +40,10 @@ function fg(x){
 
 var h = new fg("01");
 console.log(h.id);
+
+
+/*
+ CONSIDERAÇÕES:
+    Se possível, pratique alguma função anonima!
+    No mais, está excelente!
+ */
