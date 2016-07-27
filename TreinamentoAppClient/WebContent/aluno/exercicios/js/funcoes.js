@@ -5,6 +5,7 @@ fun();
 retorno();
 fun3();
 param(10);
+paramrest("teste",10,20,30,40);
 
 function fun() {
     console.log("teste de função não anonima");
@@ -31,3 +32,9 @@ function param (x) {
      console.log("teste de função não anonima com parametros" + x);
 }
 
+
+function paramrest(x, ...y) {
+    var a = x;
+    var b = y;
+    console.log("a= " + a + " b= " + b.length );
+}
