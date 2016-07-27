@@ -1,50 +1,77 @@
 @CHARSET "ISO-8859-1";
-
 body {
     font-family: "verdana", sans-serif;
     font-size: 11px;
     color: #ffffff;
     background: linear-gradient(25deg, #BE93C2, #ED667F, #F2AE72);
-    margin:0;
+    margin: 0;
 }
-article{
+
+article {
     margin: 10px;
     padding: 5px;
     border: 1px dotted;
 }
 
-div{
+nav.main {
+    position: fixed 2px top;
+}
+
+body> div> img {
     float: right;
 }
 
-h2, h3 {
+.content {
+    left: 300px;
+}
+
+
+nav.lateral {
+    float: left;
+    width: 250px;
+    height: 400px;
+    background-color: #fff;
+}
+
+article .rodape {
+    position: fixed 2px top;
+    background-color: #F2AE72;
+}
+
+h2,
+h3 {
     text-transform: uppercase;
     color: #ffffff;
 }
 
-mark{
+mark {
     background-color: #F2AE72;
 }
 
-a:link, a:visited {
-	text-decoration: underline;
+a:link,
+a:visited {
+    text-decoration: underline;
     color: #333333;
-	}
+}
+
 a:hover {
-	text-decoration: none;
-	color: #333333;
-	}
+    text-decoration: none;
+    color: #333333;
+}
+
 a:active {
-	text-decoration: underline;
-	}
+    text-decoration: underline;
+}
+
 table {
     border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px dotted #ffffff;
     color: #333333;
-
 }
 
 hr {
@@ -53,6 +80,6 @@ hr {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-li{
+li {
     list-style: square;
 }
