@@ -24,3 +24,8 @@ function a() {
 }
 
 a();
+
+/**
+ * CONSIDERAÇÕES:
+   Muito bom! Apenas um lembrete: a clausula 'default' sempre será a ultima, logo o break pode ser dispensado pra ela
+  */
