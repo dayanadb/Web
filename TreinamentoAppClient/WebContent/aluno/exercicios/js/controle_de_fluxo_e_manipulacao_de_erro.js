@@ -19,7 +19,6 @@ function a() {
                 break;
             default:
                 alert("default");
-                break;
         }
 }
 
