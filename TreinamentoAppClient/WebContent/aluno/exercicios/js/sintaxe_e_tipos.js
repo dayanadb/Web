@@ -3,7 +3,7 @@
     Declarar uma variável de cada tipo para todas as declarações
 */
 
-// Escopo Globa
+// Escopo Global
 var booleana;
 var nula;
 var indefinida;
@@ -43,12 +43,13 @@ function usarLetConst(opcao){
         console.log(nome);
         console.log(empresa);
 
-        alert(nome, empresa);
+        alert(nome);
     }else{
         let nome="Outra pessoa";
         const empresa="Outra empresa";
 
         console.log(nome);
         console.log(empresa);
+        alert(nome);
     }
 }
