@@ -25,3 +25,9 @@ switch (x) {
 
     default: console.log("Nenhuma das anteriores")
 }
+
+
+try {
+
+
+} catch ()
