@@ -19,3 +19,17 @@ function testarErrosIf(parametro){
         alert(ExcessaoUsuario.erro);
     }
 }
+
+function testarIteracao(){
+    var flag = true;
+
+    while(flag){
+        for(var i = 0; i < 10; i++){
+            console.log(i);
+            continue;
+        }
+        flag = false;
+    }
+
+    console.log("Saindo de testarIteracao");
+}
