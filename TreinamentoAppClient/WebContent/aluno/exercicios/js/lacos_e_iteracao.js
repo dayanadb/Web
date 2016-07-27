@@ -1,7 +1,7 @@
 /**
  * 
  */
-for ( x = 1, x < 10, x++) {
+for ( x = 1; x < 10; x++) {
     console.log("for loop x = " + x);
 }
 
@@ -17,10 +17,10 @@ while (a < 10); {
     a++;
 }
 
-var b = 0;
+a = 0;
 while (a < 10); {
-    console.log("while break loop b = " + b);
-    b++;
+    console.log("while break loop a = " + a);
+    a++;
     if (a >= 4) {
         break;
     }
@@ -30,7 +30,7 @@ console.log("while break loop b final = " + b);
 
 var b = 0;
 while (a < 10); {
-    console.log("while continue loop b = " + b);
+    consoale.log("while continue loop b = " + b);
     b++;
     if (a >= 4) {
         continue;
