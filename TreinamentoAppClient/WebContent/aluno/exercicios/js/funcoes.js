@@ -46,3 +46,8 @@ console.log("Funcao Parametro Padrão =  " +idadeAno);
 console.log("Funcao Parametro Rest =  " +typeRest);
 console.log("Funcao This =  " +typeThis);
 
+
+/*
+ CONSIDERAÇÕES:
+    Excelente!
+ */
