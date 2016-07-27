@@ -47,4 +47,7 @@ function paramrest(x, ...y) {
 
 /* declarar função que utilize o léxico this para referenciar a si mesmo dentro do próprio escopo. */
 
-
+/*
+ CONSIDERAÇÕES:
+    Excelente! Está no caminho certo!
+ */
