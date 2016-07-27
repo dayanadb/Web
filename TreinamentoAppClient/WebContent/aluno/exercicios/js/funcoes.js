@@ -70,3 +70,8 @@ var bob =
     console.log(this._name + " knows " + this._friends));
   }
 }
+
+/*
+ CONSIDERAÇÕES:
+    Observe que as funções devem ser declaradas com () no final, podendo ser anonimas (ou não). Caso tenha dúvidas sobre esses tópicos, me procure para conversarmos individualmente
+ */
