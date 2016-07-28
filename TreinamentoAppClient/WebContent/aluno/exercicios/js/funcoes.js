@@ -5,7 +5,7 @@ window.addEventListener('load', function(){
 
 })
 
-function diaSemanaF(dia){
+function diaSemanaF(dia){ //função aninhada
 
     function x(){
         switch (dia) {
@@ -38,3 +38,42 @@ function diaSemanaF(dia){
     x(); //função do tipo closure
 
 }
+
+function literal(){ //retorna String literal
+    return ("string literal");
+
+}
+
+function foo(){ //função não anônima sem retorno
+    alert("Foo");
+}
+
+
+var foo = function() { // variável que armazena escopo da função
+    alert("Foo");
+}
+
+function f(x) { //função com argumento padrão
+    x = x || 10;
+    return x;
+}
+
+function fun1(...theArgs) { //função que recebe parâmetro rest
+  console.log(theArgs.length);
+}
+
+
+function sum(){ //função que utiliza o léxico this
+  return this.a + this.b + this.c;
+}
+
+var o = {
+  a: 1,
+  b: 2,
+  c: 3,
+  get average(){
+    return (this.a + this.b + this.c) / 3;
+  }
+};
+
+console.log(o.average, o.sum);
