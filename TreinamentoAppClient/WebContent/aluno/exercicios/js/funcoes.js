@@ -1,7 +1,3 @@
-/**
- * 
- */
-
 // função //
 function a() {
    var a;
@@ -56,3 +52,10 @@ function i(x) {
 
 var j =new i("jun");
 console.log(j.nome);
+
+/*
+ CONSIDERAÇÕES:
+    Se possível, pratique mais o uso de função anonima.
+    No mais, esá muito bom!
+ */
+
