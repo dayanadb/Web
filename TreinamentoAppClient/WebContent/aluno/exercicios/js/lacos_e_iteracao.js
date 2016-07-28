@@ -57,5 +57,4 @@ for (x of pessoa) {
 /* CONSIDERAÇÕES:
    Perfeito!
  */
-
 >>>>>>> origin/RafaelBatista
