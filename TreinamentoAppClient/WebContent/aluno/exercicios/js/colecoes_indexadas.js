@@ -22,9 +22,13 @@ a.spice(1,2,5,"a");
 a.reverse();
 a.sort();
 
+
+Herança dinamica
+Pessoa.prototype = new Animal = está extendendo o tipo animal.....
+Pessoa.prototype.idade=10 // altera todas as instancias que forem criadas apos esse comando.
 */
 // exercícios
-var x = Array(1, 2, 3, );
+var x = Array(1, 2, 3 );
 
 var a = new Array("a", "b", "c");
 console.log("tamanho do array= " + a.length);
@@ -38,7 +42,7 @@ c[0] = "teste 1";
 c[1] = "teste 2";
 c[2] = "teste 3";
 c.forEach(function (x)) {
-          console.log("posicao= " + c[x]);
+          console.log ("posicao= " + c[x]);
 };
 
 var d=[][];
@@ -52,4 +56,8 @@ for (x=0;x<2;x++) {
         console.log("matriz = " + d[x][y]);
     }
 }
+
+
+
+
 
