@@ -77,8 +77,3 @@ function maior10()
     }
             */
 
-/*
- CONSIDERAÇÕES:
-    Se possível, pratique o uso do while{}, for...in e do for...of. Caso tenha dúvidas, me contate para fazer um reforço desses tópicos.
-    No mais, está muito bom!
- */

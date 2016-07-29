@@ -12,9 +12,4 @@ function ola()
     }
 }
 
-/*
- CONSIDERAÇÕES:
-    Se possível, tente escrever algum exemplo para praticar  uso do switch, do try...catch e do throw.
-    No mais, está ótimo!
- */
 
