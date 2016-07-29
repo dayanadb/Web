@@ -94,5 +94,3 @@ function carregarPais(){
         dadosPais = "";
     }
 }
-
-
