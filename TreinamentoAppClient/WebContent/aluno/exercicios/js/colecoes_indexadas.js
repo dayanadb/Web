@@ -34,22 +34,25 @@ var a = new Array("a", "b", "c");
 console.log("tamanho do array= " + a.length);
 
 
-var b = array();
+var b = [];
 b[0] = "teste 1";
 
-var c = array();
+var c = [];
 c[0] = "teste 1";
 c[1] = "teste 2";
 c[2] = "teste 3";
-c.forEach(function (x)) {
-          console.log ("posicao= " + c[x]);
-};
+c.forEach(function (x,y) {
+          console.log ("posicao= " + x + " valor= " +y);
+});
 
-var d=[][];
-d[0][0] = "teste 00";
-d[0][1] = "teste 01";
-d[1][0] = "teste 10";
-d[1][1] = "teste 11";
+
+var d = new Array(
+["teste ",0],
+["teste ",01],
+["teste ",10],
+["teste ",11]
+);
+
 
 for (x=0;x<2;x++) {
     for (y=0;y<2;y++) {
