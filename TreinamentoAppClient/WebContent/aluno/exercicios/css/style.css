@@ -1,4 +1,5 @@
 @CHARSET "ISO-8859-1";
+<<<<<<< HEAD
 html {
     height: 100%
 }
@@ -54,4 +55,89 @@ article.titulo p:first-child {
 article.titulo p:last-child {
     font-family: sans-serif;
     font-size: 34px;
+=======
+body {
+    font-family: "verdana", sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+    background: linear-gradient(25deg, #BE93C2, #ED667F, #F2AE72);
+    margin: 0;
+}
+
+article {
+    margin: 10px;
+    padding: 5px;
+    border: 1px dotted;
+}
+
+nav.main {
+    position: fixed 2px top;
+}
+
+body> div> img {
+    float: right;
+}
+
+.content {
+    left: 300px;
+}
+
+
+nav.lateral {
+    float: left;
+    width: 250px;
+    height: 400px;
+    background-color: #fff;
+}
+
+article .rodape {
+    position: fixed 2px top;
+    background-color: #F2AE72;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+mark {
+    background-color: #F2AE72;
+}
+
+a:link,
+a:visited {
+    text-decoration: underline;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px dotted #ffffff;
+    color: #333333;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+li {
+    list-style: square;
+>>>>>>> renatomedeiros
 }
