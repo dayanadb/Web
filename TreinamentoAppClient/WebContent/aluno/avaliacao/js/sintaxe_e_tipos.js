@@ -4,3 +4,7 @@
 3) Declare uma variável de escopo de bloco
 */
 
+var a; //undefined
+a = 10;
+
+this.variavel = 21;
