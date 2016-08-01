@@ -4,3 +4,8 @@
 3) Declare uma variável de escopo de bloco
 */
 
+var x = 10;
+
+let y;
+
+
