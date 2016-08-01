@@ -4,4 +4,24 @@
 
 @CHARSET "ISO-8859-1";
 
+/* 1)*/
 
+body {
+    background-color: #00BFFF;
+}
+
+
+/* 2)*/
+
+#artigo {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* 3)*/
+
+.secoes {
+    width: 100%;
+    height: 220px;
+}
