@@ -2,4 +2,6 @@
 2) Instancia a variável declarada acima com um literal do tipo 'String'
 3) Declare uma variável de escopo de bloco*/
 
-
+var a;
+a = "Ivan";
+let = 10;
