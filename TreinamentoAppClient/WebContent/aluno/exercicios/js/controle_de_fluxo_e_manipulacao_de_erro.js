@@ -24,7 +24,7 @@ function calculo(idade) {
         return idade = idade + 1;
     }
     else {
-        throw Error;
+        throw new Error('idade está nula');
     }
 }
 /**
