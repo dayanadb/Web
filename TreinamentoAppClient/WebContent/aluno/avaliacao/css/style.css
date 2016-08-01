@@ -3,5 +3,21 @@
 3) Utilizando selector por "classe" aplicar os seguintes atributos ao sections: width: 100%; height: 220px;*/
 
 @CHARSET "ISO-8859-1";
+body {
+    background-color: #0000cc; /*  ou color: rgb(0, 0, 204); */
+}
+#artigo {
+
+    width: 100%;
+    height: 500px;
+
+}
+.secoes {
+
+    width: 100%;
+    height: 220px;
+
+
+}
 
 

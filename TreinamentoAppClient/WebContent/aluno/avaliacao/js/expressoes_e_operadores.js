@@ -4,3 +4,5 @@
 
 
 
+var x = 2+2;
+var s =  "Avaliação" + "AWC";
