@@ -2,7 +2,7 @@
 // 2) Crie uma coleção do tipo chaveada que utiliza o par "chave/valor" para iteração
 
 
-var a= new Map();
+var a= new set();
 a.set("nome","xxxx");
 a.set("mod","yyyyy");
 a.set("cor","MMMMM");
@@ -17,7 +17,7 @@ for (var [key, value] of a) {
 
 
 
-var a= new set();
+var a= new map();
 a.set("nome","xxxx");
 a.set("mod","yyyyy");
 a.set("cor","MMMMM");
