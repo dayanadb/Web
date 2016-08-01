@@ -7,6 +7,7 @@ var a = 50;
 if(a == 50)
 {
     try{
+        if()
         console.log("Estou aqui");
     }
     catch(erro){
@@ -24,15 +25,18 @@ else
     a = 5 + 5;
 }
 
-switch (a > 20)
-        case 1: a = 4-8;
-        break;
+switch (a > 20){
+        +case 1:
+     a = 4 - 8;
+     break;
+ case 2:
+     try {
+         a = 5 + 8;
+     }
+     catch (erro) {
+         console.log("Errou")
+     }
+ default:
+     console.log("Estou aqui")
 
-        case 2: try{
-                a = 5+8;
-
-        }
-        catch(erro){
-            console.log("Errou")
-        }
-default:    console.log("Estou aqui")
+}
