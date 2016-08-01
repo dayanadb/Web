@@ -25,4 +25,5 @@ function aninhada ()
     console.log(aninhada2());
 }
 
+
 aninhada();
