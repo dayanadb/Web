@@ -1,3 +1,5 @@
+// chaveadas
+
 /**
  * 
  */
@@ -62,4 +64,6 @@ for  (var [key, value]  of sayings) {
 // crie um objeto set e converta-o para array
 
 // crie um array contendo 4 posições e converta-o para set
+
+
 
