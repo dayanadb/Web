@@ -1,36 +1,4 @@
-var num = 100;
-
-for(i = 0; num < 100; i++)
-{
-	//todo
-}
-
-do
-{
-	console.log(num);
-}
-while(num< 100)
-
-
-while(num < 100 )
-{
-	console.log(num);
-}
-
-var pessoa = {nome:"Aldo", sobrenome:"Leonardo", idade:43};
-
-var teste = "";
-var i;
-for (i in pessoa)
-{
-    teste += pessoa[i];
-	console.log(teste);
-}
-
-for (i of pessoa)
-{
-    teste += pessoa[i];
-	console.log(teste);
-}
-
+/*1) Crie um laço que teste uma condição antes de entrar no loop
+2) Dado o objeto {nome: "seu_nome", treinamento: "AWC"}, utilize a estrutura de repetição apropriada para imprimir no console os nomes dos atributos do objeto acima
+3) Crie um laço 'for' que itere nos valores entre 5 e 20, imprimindo no console o valor corrente da iteração*/
 

@@ -1,21 +1,4 @@
+/*1) declare um bloco try...catch...finally e force um lancamento de exceção dentro da declaração try
+2) Declare um bloco if...else if...else*/
 
-function verificaNumero(num)
-{
-	var num = 1000;
-	var idade = num;
-	if( num==1000)
-	{
-		try
-		{
-			idade = num / idade;
-		}
-		catch
-		{
-			console.error("idade não existe");
-		}
-	}
-	else trow
-	{
-		console.log("fim de jogo")
-	}
-};
+
