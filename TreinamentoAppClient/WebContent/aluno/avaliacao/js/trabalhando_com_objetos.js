@@ -3,3 +3,11 @@
 2) Crie um objeto a partir da declaração acima, utilizando alguma das duas formas possível para instanciação
 */
 
+//1----------------------------------------------------------
+var Pessoa = {nome: "", treinamento:""}
+
+function Pessoa(){
+    this.nome = "Jaque";
+    this.treinamento = "JS";
+
+}

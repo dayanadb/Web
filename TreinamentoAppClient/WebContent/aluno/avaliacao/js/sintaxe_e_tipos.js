@@ -4,3 +4,10 @@
 3) Declare uma variável de escopo de bloco
 */
 
+var oi;
+
+oi = 99;
+
+function func(){
+    var soExisteAqui = 0;
+}
