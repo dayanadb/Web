@@ -9,10 +9,13 @@ while (a < 100) {
     a++;
 }
 
-var a = {nome: "Roberto Carlos Leonardo", treinamento: "AWC"};
-for (var [key, value] of a) {
-  console.log(key + " = " + value);
-}
+var aluno = {
+    nome: "Roberto Carlos Leonardo",
+    treinamento: "AWC"};
+var pp = Object.create (aluno);
+console.log("Nome do aluno= " + pp.nome);
+
+
 
 
 for ( i = 5; i <= 20; i++) {
