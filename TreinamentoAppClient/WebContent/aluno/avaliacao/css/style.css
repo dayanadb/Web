@@ -1,7 +1,18 @@
-/*1) Utilizando selector "tipo" aplicar background-color ao body para que seja azul (qualquer tonalidade), utilizando rgb ou valor hexadecimal (#)
-2) Utilizando selector "id" aplicar os seguintes atributos ao article: width: 100%; height: 500px;
-3) Utilizando selector por "classe" aplicar os seguintes atributos ao sections: width: 100%; height: 220px;*/
-
 @CHARSET "ISO-8859-1";
 
+/*1) Utilizando selector "tipo" aplicar background-color ao body para que seja azul (qualquer tonalidade), utilizando rgb ou valor hexadecimal (#) */
+body {
+ background-color: #0000FF;
+}
 
+/*2) Utilizando selector "id" aplicar os seguintes atributos ao article: width: 100%; height: 500px; */
+#id {
+ width: 100%;
+ height: 500px;
+}
+
+/*3) Utilizando selector por "classe" aplicar os seguintes atributos ao sections: width: 100%; height: 220px;*/
+.secoes {
+    width:100%;
+    height: 220px;
+}
