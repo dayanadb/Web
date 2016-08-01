@@ -2,3 +2,37 @@
 2) Dado o objeto {nome: "seu_nome", treinamento: "AWC"}, utilize a estrutura de repetição apropriada para imprimir no console os nomes dos atributos do objeto acima
 3) Crie um laço 'for' que itere nos valores entre 5 e 20, imprimindo no console o valor corrente da iteração*/
 
+function primeiro()
+{
+    var teste = true;
+    do
+    {
+        console.log("O teste é " + teste);
+        teste = false;
+    }
+    while(teste);
+}
+
+primeiro();
+
+function segundo()
+{
+    var objeto = {name:"Leticia",treinamento:"AWC"}
+
+    for(var testando in objeto)
+    {
+        console.log(testando);
+    }
+}
+
+segundo();
+
+function terceiro()
+{
+    for(var i = 5; i <= 20; i++)
+    {
+        console.log(i);
+    }
+}
+
+terceiro();
