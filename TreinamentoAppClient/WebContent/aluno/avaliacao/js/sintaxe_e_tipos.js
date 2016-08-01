@@ -4,3 +4,9 @@
 3) Declare uma variável de escopo de bloco
 */
 
+var a;
+a = 2;
+
+function(){
+    var bloco;
+}
