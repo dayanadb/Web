@@ -48,11 +48,10 @@ tipos: literal e construtor
 // crie um objeto literal, contendo pelo menos dois atriutos e uma função. não precisa ser implementada
 var carrro = {
     marca:"",
-    modelo:"";
-    abastecer: function() {console.log("enchendo o tanque");}
+    modelo:"",
+    abastecer: function() {console.log("enchendo o tanque")}};
 
-}
-var pp = Object.create (carro);
+var pp = Object.create (carrro);
 
 
 // defina um tipo através de uma função, contendo pelo menos dosi atributos e uma função e crie um objeto a partir da mesma
@@ -62,16 +61,18 @@ function Carro(){
     this.calibrar = function(){};
 }
 var c1 = new Carro();
-console.log("marca= " + this.marca);
+c1.marca="teste e marca";
+console.log("marca= " + c1.marca);
 
 // crie um objeto contendo um atributo e uma função que imprima o atributo  e uma função que imprima o atributo utilizando referencia a "this"
 
 var Pessoa = {
     nome:"teste",
-    sexo:"";
-    vestir: function() {console.log("vestindo");}
+    sexo:"",
+    vestir: function() {console.log("vestindo");},
     andar : function() {console.log(this.nome + " andando");}
-}
+};
+
 var pess=Object.create (Pessoa);
 pess.vestir;
 pess.andar;
