@@ -9,5 +9,7 @@ valor= 1;
 
 bloco = 'inicio';
 }
+/*
+OBSERVACAO: cuidado com a 'omissao' do identificador, pois num escopo de bloco, 'const' é utilizado por default. Como boa prática, sempre declare com const ou let*/
 
 
