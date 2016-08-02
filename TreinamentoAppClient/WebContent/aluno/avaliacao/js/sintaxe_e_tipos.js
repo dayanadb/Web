@@ -29,3 +29,5 @@ else {
     console.log('Isento de ingresso')
 }
 
+/*OBSERVACAO:
+Variavel com escopo de bloco deve ser declarada dentro de um bloco utilizando a keyword 'let'. O uso de 'var' implica em a variavel estar disponivel para todo o escopo (global ou da funçao) a qual foi declarada*/
